@@ -1,0 +1,35 @@
+classification,CART,rpart,rpart,Partial Least Squares, *
+classification,GBM,gbm,"gbm,plyr",Stochastic Gradient Boosting, *
+classification,GLMNET,glmnet,"glmnet,Matrix",Lasso and Elastic-Net Regularized Generalized Linear Models,
+classification,KNN,kknn,kknn,k-Nearest Neighbors,
+classification,LDA,lda,MASS,Linear Discriminant Analysis,
+classification,LLDA,loclda,klaR,Localized Linear Discriminant Analysis,
+classification,MARS,earth,earth,Multivariate Adaptive Regression Spline, *
+classification,MDA,mda,mda,Mixture Discriminant Analysis,
+classification,NBC,naive_bayes,naivebayes,Naive Bayes,
+classification,NNET,nnet,nnet,Neural Network, *
+classification,PDA,pda,mda,Penalized Discriminant Analysis,
+classification,PLS,pls,pls,Partial Least Squares,
+classification,RDA,rda,klaR,Regularized Discriminant Analysis  ,
+classification,RF,rf,randomForest,Random Forest, *
+classification,SVM-Linear,svmLinear2,e1071,Support Vector Machines with Linear Kernel,
+classification,SVM-Radial,svmRadial,kernlab,Support Vector Machines with Radial Kernel ,
+classification,#RGLM,randomGLM,randomGLM,Ensembles of Generalized Linear Models, *
+,,,,,
+regression,BGLM,bayesglm,arm,Bayesian Generalized Linear Model,
+regression,BLASSO,blasso,monomvn,Bayesian Lasso,
+regression,BRNN,brnn,brnn,Bayesian Regularized Neural Networks,
+regression,GBM,gbm,"gbm,plyr",Stochastic Gradient Boosting,
+regression,GLM,glm,,Generalized Linear Model,
+regression,GLMNET,glmnet,"glmnet,Matrix",Lasso and Elastic-Net Regularized Generalized Linear Models,
+regression,GP-Poly,gaussprPoly,kernlab,Gaussian Process with Polynomial Kernel,
+regression,GP-Radial,gaussprRadial,kernlab,Gaussian Process with Radial Kernel,
+regression,KNN,kknn,kknn,k-Nearest Neighbors,
+regression,LASSO,lasso,elasticnet,Lasso Model,
+regression,MARS,earth,earth,Multivariate Adaptive Regression Spline,
+regression,MLR,lm,,Multivariate Linear Regression,
+regression,RF,rf,randomForest,Random Forest,
+regression,RIDGE,ridge,elasticnet,Ridge Regression,
+regression,SVM-Linear,svmLinear2,e1071,Support Vector Machines with Linear Kernel,
+regression,SVM-Radial,svmRadial,kernlab,Support Vector Machines with Radial Kernel,
+regression,#BART,bartMachine,bartMachine,Bayesian Additive Regression Trees,
