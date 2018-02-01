@@ -1,0 +1,21 @@
+iframe.scale {
+  width: 100%; 
+  border: #ddd 5px solid;
+  overflow: hidden;
+  position: relative;
+  -moz-transform-origin: 0px 0;
+  -o-transform-origin: 0 0;
+  -webkit-transform-origin: 0 0; 
+}
+.carousel .carousel-caption a {
+	color: #e7298a;
+	font-size: 16px !important;
+}
+.carousel .carousel-caption {
+	visibility: hidden;
+	background: rgba(255,255,255,0.50);
+}
+.carousel:hover .carousel-caption {
+	visibility: visible;
+	background: rgba(0,0,0,0.50);
+}
