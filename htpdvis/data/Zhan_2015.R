@@ -1,0 +1,5 @@
+DS1 <- read.table("Zhan_2015_DS1.txt", row.names = 1, sep="\t", header = T, comment.char = "", check.names = F, quote = "")
+DS4 <- read.table("Zhan_2015_DS4.txt", row.names = 1, sep="\t", header = T, comment.char = "", check.names = F, quote = "")
+genes <- intersect(rownames(DS1), rownames(DS4))
+out <- data.frame(Gene=genes, Module=paste0("M", DS4[genes, 'Module']), DS1[genes, ])
+write.csv(out, 'Zhan_2015_RNAseq.csv', row.names = F)

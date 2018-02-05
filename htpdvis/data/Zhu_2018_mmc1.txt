@@ -1,0 +1,611 @@
+Individual code	Group	Name	Categories	Botanical variety	TGRC 	PI CGN#	EA #	original reads	depth	coverage	coverage(without "N")
+TS-1	BIG	VF-36	Vintage Processing	S. lycopersicum	LA0490	-	-	68,472,300 	5.8254	88.12%	98.431%
+TS-2	BIG	Moneymaker	Vintage Fresh Market	S. lycopersicum	LA2706	-	-	62,502,494 	5.2707	87.32%	97.537%
+TS-3	BIG	M-82	Modern Processing	S. lycopersicum	LA3475	-	-	69,720,100 	5.8907	87.18%	97.381%
+TS-4	BIG	Hawaii 7998	Inbreed line	S. lycopersicum	LA3856	-	-	65,393,300 	5.4853	86.94%	97.112%
+TS-5	BIG	Edkawi	Vintage Fresh Market	S. lycopersicum	LA2711	-	-	69,605,530 	5.8852	87.96%	98.252%
+TS-6	BIG	San Marzano	Vintage Processing	S. lycopersicum	LA3008	-	-	55,910,236 	4.7695	86.93%	97.101%
+TS-7	BIG	Micro-Tom	Modern Fresh Market	S. lycopersicum	LA3911	-	-	64,531,690 	5.3326	87.43%	97.660%
+TS-8	BIG	E-6203	Modern Processing	S. lycopersicum	LA4024	-	-	65,523,874 	5.5115	87.68%	97.939%
+TS-9	BIG	Ailsa Craig 	Vintage Fresh Market	S. lycopersicum	LA2838A 	-	-	63,997,944 	5.411	87.96%	98.252%
+TS-10	BIG	Marglobe 	Vintage Fresh Market	S. lycopersicum	LA0502	-	-	77,360,494 	8.1202	88.55%	98.911%
+TS-11	BIG	KR2     	Modern Fresh Market	S. lycopersicum	-	-	-	63,430,340 	5.3004	85.80%	95.839%
+TS-12	BIG	yoku improvement	Modern Fresh Market	S. lycopersicum	-	-	-	63,957,942 	5.3068	86.09%	96.163%
+TS-13	CER	Pime-Bruce	Wild  species	S. lycopersicum var cerasiforme	-	-	-	63,934,450 	5.3178	86.50%	96.621%
+TS-14	PIM	Chota to EI Angel	Wild  species	S. pimpinellifolium	LA1547	-	-	65,481,502 	5.3511	86.85%	97.012%
+TS-15	PIM		Wild  species	S. pimpinellifolium	LA2093	-	-	52,109,856 	5.2165	85.45%	95.448%
+TS-16	PIM		Wild  species	S. pimpinellifolium	LA1246	PI365912	-	65,006,088 	5.3401	85.85%	95.895%
+TS-17	PIM	Culebras	Wild  species	S. pimpinellifolium	LA0373	-	-	63,976,088 	5.1574	85.41%	95.403%
+TS-18	PIM		Wild  species	S. pimpinellifolium	LA1579	-	-	65,976,876 	5.3075	85.51%	95.515%
+TS-19	PIM		Wild  species	S. pimpinellifolium	LA1589	PI407545 	EA01467	64,819,780 	5.2881	85.18%	95.147%
+TS-20	PIM	Sechin	Wild  species	S. pimpinellifolium	LA0442	-	-	64,546,466 	5.2866	86.99%	97.168%
+TS-21	PIM		Wild  species	S. pimpinellifolium	LA1375	PI365967?	-	64,068,574 	5.1693	85.18%	95.147%
+TS-22	PIM	Pisiquillo	Wild  species	S. pimpinellifolium	LA1269	PI365957	-	62,122,502 	5.1008	85.05%	95.001%
+TS-23	PIM	EI Pinon, Asia	Wild  species	S. pimpinellifolium	LA1521	-	-	63,112,012 	5.1888	84.25%	94.108%
+TS-24	PIM		Wild  species	S. pimpinellifolium	-	-	-	41,980,064 	4.2057	83.43%	93.192%
+TS-25	CER	Clémentine	cultivar	S. lycopersicum var cerasiforme	-	-	-	83,580,736 	8.109	88.92%	99.324%
+TS-26	CER		cultivar	S. lycopersicum var cerasiforme	-	-	-	85,422,988 	8.258	88.28%	98.609%
+TS-27	CER	N135 Green Gage	cultivar	S. lycopersicum var cerasiforme	-	-	-	97,764,692 	9.7612	88.81%	99.201%
+TS-28	CER	N 347 Yablochnyi		S. lycopersicum var cerasiforme	-	-	-	96,788,950 	9.5616	89.01%	99.425%
+TS-29	CER		cultivar	S. lycopersicum var cerasiforme	-	-	-	89,078,370 	8.3856	88.83%	99.224%
+TS-30	CER		Wild  species	S. lycopersicum var cerasiforme	LA1204	-	-	78,732,444 	7.493	88.59%	98.956%
+TS-31	CER		Wild  species	S. lycopersicum var cerasiforme	LA1464	-	-	98,342,460 	9.3974	88.70%	99.078%
+TS-32	CER	Santa Cruz	Latin American cultivar 	S. lycopersicum var cerasiforme	LA0172	-	-	113,985,276 	10.8236	88.85%	99.246%
+TS-33	CER		Wild  species	S. lycopersicum var cerasiforme	LA2137	-	-	101,390,534 	10.0377	88.71%	99.090%
+TS-34	CER		Wild  species	S. lycopersicum var cerasiforme	LA2675	-	-	81,776,504 	8.2102	87.82%	98.095%
+TS-35	CER	tomate Richters	uncertain	S. lycopersicum var cerasiforme	-	-	-	84,313,148 	8.5471	88.55%	98.911%
+TS-36	CER		cultivar	S. lycopersicum var cerasiforme	-	PI187002-1	-	97,805,822 	9.8318	88.45%	98.799%
+TS-37	CER	L. pimpinellifolium atypique, site 10 (F300045)	Wild  Species	S. lycopersicum var cerasiforme	-	-	-	96,751,942 	9.1283	87.19%	97.392%
+TS-38	CER		cultivar	S. lycopersicum var cerasiforme	-	PI129088	-	97,265,988 	9.2276	88.89%	99.291%
+TS-39	CER	Cerise Gold	cultivar	S. lycopersicum var cerasiforme	-	-	-	100,992,938 	9.5083	87.32%	97.537%
+TS-40	CER	Cerise VFNT	cultivar	S. lycopersicum var cerasiforme	-	-	-	96,438,726 	9.2466	85.95%	96.007%
+TS-41	BIG		Cocktail tomato	S. lycopersicum	-	-	EA02435	65,071,056 	6.679	88.12%	98.431%
+TS-42	BIG		Processing tomato	S. lycopersicum	-	PI345565	EA05808	85,469,590 	8.2681	88.64%	99.011%
+TS-43	BIG	Moneymaker	Fresh Market	S. lycopersicum	-	-	EA00840	56,625,496 	5.9681	88.04%	98.341%
+TS-44	BIG	A pera abruzzese	Landrace	S. lycopersicum	-	-	-	81,299,520 	8.2125	88.25%	98.576%
+TS-45	BIG		Processing tomato	S. lycopersicum	-	PI303718	EA05578	53,210,802 	5.6581	86.83%	96.990%
+TS-46	BIG		Processing tomato	S. lycopersicum	-	-	EA01237	54,156,166 	6.127	88.48%	98.833%
+TS-47	BIG		Processing tomato	S. lycopersicum	-	-	EA01960	62,088,334 	6.5957	88.02%	98.319%
+TS-48	BIG	Mexico City	Landrace/Latin American cultivar 	S. lycopersicum	LA0146	-	-	60,666,926 	6.7463	87.20%	97.403%
+TS-49	BIG	Earliana	Vintage Processing	S. lycopersicum	LA3238	-	-	69,287,634 	7.0218	72.49%	80.972%
+TS-50	PIM		Wild  species	S. pimpinellifolium	LA0417	-	EA00565	59,330,136 	6.5504	81.06%	90.544%
+TS-51	BIG			S. lycopersicum	-	-	-	50,478,070 	5.1502	86.14%	96.219%
+TS-52	BIG	05-4126 (97-49-2)	cultivar	S. lycopersicum	-	-	-	56,857,510 	5.9246	69.40%	77.520%
+TS-53	CER		Wild  species	S. lycopersicum var cerasiforme	LA2095	-	-	69,283,744 	7.5576	87.08%	97.269%
+TS-54	CER	cerise rose	cultivar	S. lycopersicum var cerasiforme	-	-	-	45,011,214 	4.4527	79.18%	88.445%
+TS-55	BIG			S. lycopersicum	-	-	EA00448	73,593,628 	7.7613	88.01%	98.308%
+TS-56	CER		 Wild  species 	S. lycopersicum var cerasiforme	LA1320	PI365923	-	71,710,842 	6.8039	86.53%	96.655%
+TS-57	CER		 Wild  species 	S. lycopersicum var cerasiforme	LA1307	PI378998	-	74,463,356 	7.0242	87.25%	97.459%
+TS-58	BIG		Processing tomato	S. lycopersicum	-	-	EA03577	85,682,298 	7.3232	87.70%	97.961%
+TS-59	BIG		Processing tomato	S. lycopersicum	-	-	EA02898	73,493,652 	6.9788	86.40%	96.509%
+TS-60	BIG	New Yorker	Vintage Fresh Market	S. lycopersicum	LA2009	-	-	59,477,338 	5.5217	85.90%	95.951%
+TS-61	CER	Huayvaruni	 Wild  species 	S. lycopersicum var cerasiforme	LA2670	-	-	63,407,210 	7.1526	84.28%	94.141%
+TS-62	CER			S. lycopersicum var cerasiforme	-	-	EA02959	81,559,528 	8.0156	66.86%	74.683%
+TS-63	CER			S. lycopersicum var cerasiforme	-	-	-	70,357,056 	5.3688	86.79%	96.945%
+TS-64	CER		Cocktail tomato	S. lycopersicum var cerasiforme	-	-	EA03525	57,437,096 	4.7135	82.58%	92.242%
+TS-65	CER		Wild  species 	S. lycopersicum var cerasiforme	LA1482	-	-	62,419,658 	6.9849	84.60%	94.499%
+TS-66	CER	H707	Wild  species 	S. lycopersicum var cerasiforme	LA1388	PI379009	-	77,233,048 	5.9786	85.32%	95.303%
+TS-67	CER		Cocktail tomato	S. lycopersicum var cerasiforme	-	-	EA02304	74,546,458 	5.595	87.28%	97.492%
+TS-68	BIG	Chiclayo	Latin American cultivar 	S. lycopersicum	LA0395	-	-	116,140,234 	11.5625	73.27%	81.843%
+TS-69	BIG	Huachinango	Latin American cultivar 	S. lycopersicum	LA1459	-	-	56,886,284 	6.5377	87.97%	98.263%
+TS-70	CER	Pyriforme	cultivar	S. lycopersicum var cerasiforme	-	-	-	133,873,154 	10.6091	86.45%	96.565%
+TS-71	CER	Ohmiya SunCerise	cultivar	S. lycopersicum var cerasiforme	-	-	-	75,435,124 	8.0568	87.97%	98.263%
+TS-72	CER	Principe Borghese	Vintage cultivar	S. lycopersicum var cerasiforme	-	-	-	71,451,034 	6.2085	87.88%	98.162%
+TS-73	BIG	Quarantino		S. lycopersicum	-	-	-	71,429,396 	6.2906	85.10%	95.057%
+TS-74	BIG	N 739 	Fresh Market	S. lycopersicum	-	-	-	52,529,048 	5.6604	85.77%	95.806%
+TS-75	CER	Poire jaune	cultivar	S. lycopersicum var cerasiforme	-	-	-	75,924,840 	8.296	88.45%	98.799%
+TS-76	BIG		Processing tomato	S. lycopersicum	-	-	EA01230	70,742,738 	7.7369	88.19%	98.509%
+TS-77	PIM	Atacames	Wild  species	S. pimpinellifolium	LA1237	PI365910	-	67,822,650 	7.2395	84.65%	94.555%
+TS-78	BIG		Processing tomato	S. lycopersicum	-	-	EA02895	77,136,148 	8.5296	87.88%	98.162%
+TS-79	PIM	Piedras Gordas	Wild  species	S. pimpinellifolium	LA1924	-	-	93,633,548 	10.34	82.67%	92.343%
+TS-80	BIG		Processing tomato	S. lycopersicum	-	-	EA01020	69,929,440 	6.8232	78.02%	87.149%
+TS-81	BIG		Processing tomato	S. lycopersicum	-	-	EA02761	62,710,734 	6.7521	87.82%	98.095%
+TS-82	BIG		Processing tomato	S. lycopersicum	-	-	EA03274	59,350,092 	5.2529	72.12%	80.558%
+TS-83	CER		cultivar	S. lycopersicum var cerasiforme	-	-	EA01953	92,863,932 	9.0876	88.48%	98.833%
+TS-84	CER			S. lycopersicum var cerasiforme	-	-	-	87,392,250 	8.4165	87.88%	98.162%
+TS-85	BIG			S. lycopersicum	-	-	-	82,892,088 	7.0858	87.83%	98.107%
+TS-86	BIG			S. lycopersicum	-	-	EA01684	146,008,028 	14.2071	85.17%	95.135%
+TS-87	CER	Trujillo	Latin American cultivar; Wild  species 	S. lycopersicum var cerasiforme	LA1701	-	-	52,171,082 	3.8017	66.39%	74.158%
+TS-88	BIG		Cocktail tomato	S. lycopersicum	-	-	EA01804	157,844,510 	12.0905	86.78%	96.934%
+TS-89	BIG		Processing tomato	S. lycopersicum	-	-	EA01185	75,644,902 	5.8669	86.94%	97.112%
+TS-90	BIG		Cocktail tomato	S. lycopersicum	-	-	EA02753	96,080,442 	6.229	87.46%	97.693%
+TS-91	CER	N 2759 Enano	cultivar	S. lycopersicum var cerasiforme	-	-	-	106,035,852 	8.0963	58.03%	64.820%
+TS-92	PIM	Punto Cuatro	Wild  species	S. pimpinellifolium	LA1582	PI407539	-	38,226,706 	3.988	48.39%	54.052%
+TS-93	BIG		Processing tomato	S. lycopersicum	-	-	EA01002	65,581,324 	4.9125	86.68%	96.822%
+TS-94	CER	Farthest North	cultivar	S. lycopersicum var cerasiforme	-	-	-	200,312,588 	12.9541	78.19%	87.339%
+TS-95	BIG	Moneymaker	Fresh Market	S. lycopersicum	-	-	-	71,410,822 	7.9998	88.60%	98.967%
+TS-96	CER		Wild  species 	S. lycopersicum var cerasiforme	LA1456	-	-	130,328,904 	8.2308	39.56%	44.189%
+TS-97	CER	Tiny tim		S. lycopersicum var cerasiforme	LA0154	-	-	160,001,688 	14.5707	69.41%	77.531%
+TS-98	CER	Gold Nugget 	cultivar	S. lycopersicum var cerasiforme	LA4355	-	-	72,267,094 	7.7071	72.84%	81.363%
+TS-99	CER	Celsior		S. lycopersicum var cerasiforme	-	-	-	84,708,160 	4.4803	85.70%	95.727%
+TS-100	BIG		Processing	S. lycopersicum	-	-	EA03456	94,401,622 	9.9494	88.74%	99.123%
+TS-101	BIG			S. lycopersicum	-	-	EA00369	157,011,856 	8.3735	38.87%	43.418%
+TS-102	BIG		Processing tomato	S. lycopersicum	-	-	EA03673	120,665,740 	9.6834	87.57%	97.816%
+TS-103	BIG			S. lycopersicum	-	-	EA00389	76,915,638 	5.8259	87.18%	97.381%
+TS-104	BIG		Processing tomato	S. lycopersicum	-	-	EA01756	74,457,306 	4.6343	85.85%	95.895%
+TS-105	CER		Wild  species	S. lycopersicum var cerasiforme	-	-	EA01448	84,271,796 	5.3659	86.37%	96.476%
+TS-106	CER		cultivar	S. lycopersicum var cerasiforme	-	-	-	71,493,570 	5.0956	86.75%	96.900%
+TS-107	CER	Turrialba	Wild  species	S. lycopersicum var cerasiforme	LA1542	-	-	80,934,656 	4.6553	40.79%	45.563%
+TS-108	BIG	Puno I	Processing tomato	S. lycopersicum	-	-	EA01989	46,368,620 	4.4455	71.20%	79.531%
+TS-109	CER		Cocktail tomato	S. lycopersicum var cerasiforme	-	-	EA02660	83,550,734 	5.2282	87.00%	97.180%
+TS-110	BIG			S. lycopersicum	-	 PI93302	EA04243	67,089,134 	4.1858	84.63%	94.532%
+TS-111	BIG		Processing tomato	S. lycopersicum	-	-	EA01270	133,528,034 	9.7822	85.72%	95.750%
+TS-112	BIG		Processing tomato	S. lycopersicum	-	-	EA03083	95,361,760 	5.6974	88.08%	98.386%
+TS-113	BIG		Processing tomato	S. lycopersicum	-	-	EA01198	72,790,178 	4.2885	85.93%	95.984%
+TS-114	BIG		Processing tomato	S. lycopersicum	-	-	EA01982	55,009,360 	3.4527	83.25%	92.991%
+TS-115	BIG		Processing tomato	S. lycopersicum	-	-	EA03426	82,205,732 	8.6181	80.97%	90.444%
+TS-116	CER	N1565	cultivar	S. lycopersicum var cerasiforme	-	-	-	66,599,846 	7.05	78.01%	87.138%
+TS-117	BIG	Scatolone di bolsena	Landrace	S. lycopersicum	-	-	-	57,220,364 	4.4021	85.67%	95.694%
+TS-118	CER	Santa Cruz, Galapagos	Latin American cultivar;Wild  species 	S. lycopersicum var cerasiforme	LA0292	-	-	72,467,098 	7.6195	78.17%	87.316%
+TS-119	CER	Wva 106	Wild  species 	S. lycopersicum var cerasiforme	-	-	-	156,216,070 	13.3971	68.93%	76.995%
+TS-120	CER			S. lycopersicum var cerasiforme	-	-	EA01356	79,286,898 	8.9211	88.51%	98.866%
+TS-121	BIG	NC EBR-6 	Modern Fresh Market	S. lycopersicum	LA3846	-	-	110,067,678 	11.1165	79.12%	88.377%
+TS-122	BIG	Rutgers?	Vintage Fresh Market	S. lycopersicum	LA1090	-	-	138,179,422 	6.4361	37.65%	42.055%
+TS-123	PIM	Trujillo	Wild  species	S. pimpinellifolium	LA0722	-	-	54,037,828 	5.8604	71.50%	79.866%
+TS-124	PIM	Santa Rosa	Wild  species	S. pimpinellifolium	LA1245	PI365911 	-	71,569,300 	5.9329	51.82%	57.883%
+TS-125	BIG		Processing tomato	S. lycopersicum	-	-	EA00422	52,612,642 	3.4896	83.19%	92.924%
+TS-126	BIG			S. lycopersicum	-	-	EA01903	132,186,610 	6.9354	58.56%	65.412%
+TS-127	BIG	Hacienda Calera	Landrace/Latin American cultivar 	S. lycopersicum	LA0113	-	-	52,521,640 	5.9521	86.46%	96.576%
+TS-128	BIG	Pearson?	Vintage Processing	S. lycopersicum	LA0012	-	-	64,024,138 	7.2346	87.64%	97.894%
+TS-129	CER	Moyobamba	"Latin American cultivar; Wild  species "	S. lycopersicum var cerasiforme	LA2845	-	-	55,832,850 	6.3213	86.79%	96.945%
+TS-130	BIG	Severianin 	Modern Fresh Market	S. lycopersicum	LA2413	-	-	70,565,626 	5.3202	47.50%	53.058%
+TS-131	CER	Cuba Plum	cultivar	S. lycopersicum var cerasiforme	LA1162	-	-	51,146,752 	5.8109	86.86%	97.023%
+TS-132	BIG	Primabel	Vintage Fresh Market	S. lycopersicum	LA3903	-	-	61,267,678 	6.6572	88.14%	98.453%
+TS-133	BIG	Peto95-43	Modern Processing	S. lycopersicum	LA3528	-	-	57,222,504 	2.8201	78.39%	87.562%
+TS-134	CER	La Estancilla	Wild  species	S. lycopersicum var cerasiforme	LA1429	-	-	79,863,784 	4.242	64.79%	72.371%
+TS-135	BIG	Hacienda Rosario	Landrace/Latin American cultivar 	S. lycopersicum	LA0466	PI 258469 	-	63,896,106 	7.1636	87.91%	98.196%
+TS-136	BIG	Vito		S. lycopersicum	-	-	-	54,258,968 	4.8304	62.66%	69.992%
+TS-137	BIG	Spagnoletta	Landrace	S. lycopersicum	-	-	-	93,547,146 	6.1974	87.38%	97.604%
+TS-138	CER	Malintka 101	cultivar	S. lycopersicum var cerasiforme	-	-	-	73,194,822 	7.9003	87.58%	97.827%
+TS-139	BIG	Red Setter	Vintage cultivar	S. lycopersicum	-	-	-	84,181,326 	7.9995	88.35%	98.687%
+TS-140	BIG	149-77	cultivar	S. lycopersicum	-	-	-	67,836,802 	7.6139	88.12%	98.431%
+TS-141	BIG	Saladette	cultivar	S. lycopersicum	-	-	-	95,956,264 	8.7485	88.31%	98.643%
+TS-142	BIG	Roma	Vintage cultivar	S. lycopersicum	-	-	-	85,414,094 	7.5641	88.00%	98.297%
+TS-143	BIG	Florida 7547 	Modern Fresh Market	S. lycopersicum	LA4025	-	-	49,022,168 	5.1819	56.70%	63.334%
+TS-144	PIM	Pichilingue	Wild  species	S. pimpinellifolium	LA0411	PI251319 	-	70,423,850 	6.793	63.45%	70.874%
+TS-145	PIM	Tumbes south	Wild  species	S. pimpinellifolium	LA1617	-	-	54,998,974 	5.8933	61.70%	68.919%
+TS-146	wild			S. neorickii	LA2133	-	-	72,422,372 	6.8499	75.04%	83.820%
+TS-147	BIG			S. lycopersicum	LA3130	-	-	132,071,096 	9.6008	85.60%	95.616%
+TS-148	CER	Pfacchayoc	Wild  species	S. lycopersicum var cerasiforme	LA1323	PI365924?	-	56,909,216 	6.4695	85.99%	96.051%
+TS-149	CER	Villa Hermosa	"Latin American cultivar "	S. lycopersicum var cerasiforme	LA1425	PI379060	-	71,224,666 	5.4853	51.98%	58.062%
+TS-150	BIG	Tarapoto	Landrace/Latin American cultivar 	S. lycopersicum	LA2285	-	-	102,724,970 	14.5142	88.04%	98.341%
+TS-151	BIG	T-5 	Modern Fresh Market	S. lycopersicum	LA2399	-	-	50,186,838 	5.7027	83.64%	93.426%
+TS-152	BIG	Santa Cruz B	Landrace/Latin American cultivar 	S. lycopersicum	LA1021	-	-	54,160,902 	6.1663	87.08%	97.269%
+TS-153	BIG	Xol Languna	Landrace/Latin American cultivar 	S. lycopersicum	LA1544	-	-	76,024,050 	7.8749	61.92%	69.165%
+TS-154	CER	Muna	Wild  species	S. lycopersicum var cerasiforme	LA1623	-	-	67,258,956 	7.566	87.92%	98.207%
+TS-155	BIG	Condine Red	Vintage Fresh Market,Monogenic	S. lycopersicum	LA0533	-	-	71,782,510 	5.4235	65.69%	73.376%
+TS-156	PIM	Balsa Huaico	Wild  species	S. pimpinellifolium	LA2181	-	-	75,024,060 	7.0881	85.44%	95.437%
+TS-157	BIG		Processing tomato	S. lycopersicum	-	-	EA03648	73,561,956 	3.5448	79.82%	89.159%
+TS-158	CER	 PE-67 	Wild  species	S. lycopersicum var cerasiforme	LA2626 	-	EA01541	99,386,408 	10.3573	88.02%	98.319%
+TS-159	BIG		Processing tomato	S. lycopersicum	-	-	EA03028	75,768,318 	6.3421	87.66%	97.917%
+TS-160	BIG		Processing tomato	S. lycopersicum	-	-	EA03533	75,938,378 	7.2438	87.89%	98.174%
+TS-161	BIG		Processing tomato	S. lycopersicum	-	-	EA02586	75,152,676 	6.4736	87.82%	98.095%
+TS-162	BIG		Processing tomato	S. lycopersicum	-	-	EA03463	64,922,132 	4.434	86.05%	96.118%
+TS-163	BIG	Marmande	Vintage Fresh Market	S. lycopersicum	LA1504	-	-	50,300,060 	5.8007	86.91%	97.079%
+TS-164	PIM	Jayanca to La Vina	Wild  species	S. pimpinellifolium	LA1584	PI407541 	-	165,616,234 	12.6465	63.03%	70.405%
+TS-165	CER	Veracruz	Latin American cultivar 	S. lycopersicum var cerasiforme	LA1218	-	-	66,263,978 	6.6964	88.56%	98.922%
+TS-166	BIG	Piura	Landrace/Latin American cultivar 	S. lycopersicum	LA0404	-	-	59,410,570 	6.2424	65.29%	72.929%
+TS-167	BIG	Tegucigalpa	Landrace/Latin American cultivar 	S. lycopersicum	LA0147	-	-	63,663,508 	5.2112	78.52%	87.707%
+TS-168	BIG	Da appendere	Landrace	S. lycopersicum	-	-	-	69,754,534 	5.3999	86.93%	97.101%
+TS-169	BIG	Cuor di bue di Albenga	Landrace	S. lycopersicum	-	-	-	71,531,324 	4.1554	85.70%	95.727%
+TS-170	BIG	Cuor di bue	Landrace	S. lycopersicum	-	-	-	61,607,356 	4.7196	86.99%	97.168%
+TS-171	BIG	UC-82	Modern Processing	S. lycopersicum	LA1706	-	-	71,064,976 	7.718	77.73%	86.825%
+TS-172	BIG		Processing tomato	S. lycopersicum	-	PI280060	EA05480	77,059,246 	6.5869	87.78%	98.051%
+TS-173	BIG			S. lycopersicum	-	-	EA03611	76,064,792 	7.3113	88.02%	98.319%
+TS-174	BIG		Processing tomato	S. lycopersicum	-	-	EA00304	81,109,984 	6.7697	87.48%	97.716%
+TS-175	BIG		Processing tomato	S. lycopersicum	-	-	EA03586	71,666,832 	5.5541	83.91%	93.728%
+TS-176	BIG		Processing tomato	S. lycopersicum	-	-	EA02669	88,868,716 	7.0343	69.87%	78.045%
+TS-177	BIG		Processing tomato	S. lycopersicum	-	-	EA01155	65,041,094 	5.3497	86.32%	96.420%
+TS-178	BIG		Processing tomato	S. lycopersicum	-	PI513036	EA06485	82,227,160 	3.9378	83.83%	93.639%
+TS-179	BIG		Processing tomato	S. lycopersicum	-	-	EA01027	136,199,312 	9.9611	85.58%	95.593%
+TS-180	BIG		Processing tomato	S. lycopersicum	-	-	EA02728	59,464,058 	4.1308	84.73%	94.644%
+TS-181	CER		Wild  species	S. lycopersicum var cerasiforme	LA1457 	-	EA01438	167,172,210 	11.3255	84.08%	93.918%
+TS-182	PIM	Corral Quemado	Wild  species	S. pimpinellifolium	LA2183	-	-	54,723,482 	4.3114	70.61%	78.872%
+TS-183	BIG		Processing tomato	S. lycopersicum	-	-	EA02764	87,302,494 	4.0767	84.76%	94.677%
+TS-184	BIG	Tarapoto		S. lycopersicum	LA2283	-	-	55,301,888 	5.1601	87.14%	97.336%
+TS-185	BIG	B-L-35	Vintage Fresh Market	S. lycopersicum	LA4347	-	-	130,475,878 	8.1241	53.99%	60.307%
+TS-186	BIG	Rowpac	Modern Processing	S. lycopersicum	LA3214	-	-	63,934,804 	6.9198	87.07%	97.258%
+TS-187	CER	Monplaisir	cultivar	S. lycopersicum var cerasiforme	-	-	-	68,708,862 	5.0868	86.06%	96.130%
+TS-188	BIG	Stone	Vintage Fresh Market	S. lycopersicum	LA1506	-	-	191,316,854 	14.2023	75.43%	84.256%
+TS-189	CER	Nagcarlang	cultivar	S. lycopersicum var cerasiforme	-	-	-	67,287,894 	5.9728	87.36%	97.582%
+TS-190	BIG	Santa Chiara	cultivar	S. lycopersicum	-	-	-	74,274,986 	6.3044	87.28%	97.492%
+TS-191	BIG	Francescano	Landrace	S. lycopersicum	-	-	-	66,893,864 	6.6704	87.73%	97.995%
+TS-192	BIG	Severianin	Vintage cultivar	S. lycopersicum	-	-	-	73,420,040 	6.2453	87.97%	98.263%
+TS-193	BIG	Pantano dArdea	Landrace	S. lycopersicum	-	-	-	64,645,842 	6.2253	87.03%	97.213%
+TS-194	BIG			S. lycopersicum	LA3238	-	-	61,176,084 	5.5466	86.20%	96.286%
+TS-195	BIG	Ace 	Vintage Fresh Market	S. lycopersicum	LA0516	-	-	93,844,718 	5.6925	20.66%	23.077%
+TS-196	BIG	N020212	Processing tomato	S. lycopersicum	-	-	EA00240	64,236,996 	7.0696	64.07%	71.567%
+TS-197	BIG	Libanese	Landrace	S. lycopersicum	-	-	-	76,457,448 	6.0806	86.96%	97.135%
+TS-198	BIG			S. lycopersicum	-	-	EA00512	61,229,566 	4.8539	86.02%	96.085%
+TS-199	wild			S. cheesmaniae	LA0746	-	EA00587	89,149,358 	9.8915	86.57%	96.699%
+TS-200	BIG	Hot set	cultivar	S. lycopersicum	LA3320	-	-	140,838,910 	10.6664	86.11%	96.185%
+TS-201	BIG	San Salvador	Landrace/Latin American cultivar	S. lycopersicum	LA1210	-	-	58,173,846 	5.6949	87.70%	97.961%
+TS-202	CER		Latin American cultivar 	S. lycopersicum var cerasiforme	LA2402	-	-	71,433,412 	6.6892	70.05%	78.246%
+TS-203	BIG	Bell pepper-like	Landrace	S. lycopersicum	-	-	-	57,041,632 	5.6665	87.27%	97.481%
+TS-204	BIG	Florida 7060 	Modern Fresh Market	S. lycopersicum	LA3840	-	-	89,203,206 	9.1242	88.68%	99.056%
+TS-205	CER	8 bis	cultivar	S. lycopersicum var cerasiforme	-	-	-	85,874,472 	4.8315	85.05%	95.001%
+TS-206	BIG	Prince Borghese 	Vintage Fresh Market	S. lycopersicum	LA0089	-	-	81,564,120 	5.395	24.90%	27.813%
+TS-207	wild			S. cheesmaniae	LA1037	-	-	73,314,578 	7.9635	86.09%	96.163%
+TS-208	wild	Santa Cruz: Academy Bay		S. galapagense	LA0528	-	-	48,786,292 	5.4862	84.47%	94.353%
+TS-209	CER	Da serbo	landrace	S. lycopersicum var cerasiforme	-	-	-	123,613,310 	9.0552	84.72%	94.633%
+TS-210	BIG	NC 265-1 (93)-3-3 	Modern Fresh Market	S. lycopersicum	LA3625	-	-	93,539,654 	8.8113	87.35%	97.570%
+TS-211	BIG	NC 84173 	Modern Fresh Market	S. lycopersicum	LA4354	-	-	56,525,612 	6.2606	85.36%	95.348%
+TS-212	BIG	Flora-Dade	Modern Fresh Market	S. lycopersicum	LA3242	-	-	116,570,046 	12.0459	88.78%	99.168%
+TS-213	CER			S. lycopersicum var cerasiforme	-	-	EA01784	64,143,832 	6.9908	87.52%	97.760%
+TS-214	BIG	Panama	Landrace	S. lycopersicum	-	-	-	71,645,676 	7.7591	71.49%	79.855%
+TS-215	BIG	Vrbikanske Nizke	cultivar	S. lycopersicum	-	-	-	146,528,968 	8.7552	83.50%	93.270%
+TS-216	CER	Phyra	cultivar	S. lycopersicum var cerasiforme	-	-	-	53,330,592 	5.5976	84.07%	93.907%
+TS-217	wild			S. cheesmaniae	LA0429	-	EA00568	62,621,512 	2.4883	65.98%	73.700%
+TS-218	BIG	Santa Clara 5800	cultivar	S. lycopersicum	-	-	-	48,120,346 	5.41	86.80%	96.956%
+TS-219	CER	Mobalcon	landrace	S. lycopersicum var cerasiforme	-	-	-	61,507,622 	2.4268	73.76%	82.390%
+TS-220	BIG	Barnaulski Konservnyi	cultivar	S. lycopersicum	-	-	-	98,012,356 	3.9552	78.89%	88.121%
+TS-221	CER	Jalapa	Wild  species 	S. lycopersicum var cerasiforme	LA1569	-	-	57,794,504 	5.7897	83.34%	93.091%
+TS-222	PIM	Wva 700	Wild  species	S. pimpinellifolium	-	-	-	71,034,348 	7.6353	70.09%	78.291%
+TS-223	CER		Wild  species 	S. lycopersicum var cerasiforme	LA2675 	-	EA01557	213,094,074 	15.5594	71.25%	79.587%
+TS-224	BIG	Guayaquil	Landrace/Latin American cultivar 	S. lycopersicum	LA0410	PI 258474 	-	52,215,106 	5.6741	84.73%	94.644%
+TS-225	BIG		Processing tomato	S. lycopersicum	-	PI330336	EA05747	87,336,388 	3.9006	80.99%	90.466%
+TS-226	BIG	Microtom	cultivar	S. lycopersicum	-	-	-	62,549,946 	3.9662	44.06%	49.215%
+TS-227	CER	Atom	cultivar	S. lycopersicum var cerasiforme	-	-	-	69,325,786 	2.7254	72.82%	81.340%
+TS-228	BIG	M-82	cultivar	S. lycopersicum	-	-	-	149,039,396 	8.7921	79.13%	88.389%
+TS-229	CER		Wild  species 	S. lycopersicum var cerasiforme	LA1620	-	-	67,078,452 	7.5256	88.06%	98.364%
+TS-230	CER	Cerise Ildi	cultivar	S. lycopersicum var cerasiforme	-	-	-	142,898,540 	14.4477	69.05%	77.129%
+TS-231	CER	L 285	cultivar	S. lycopersicum var cerasiforme	-	-	-	78,563,310 	6.6893	86.92%	97.090%
+TS-232	BIG		Processing	S. lycopersicum	-	-	EA00951	91,395,342 	1.6308	52.85%	59.034%
+TS-233	CER		"Latin American cultivar "	S. lycopersicum var cerasiforme	LA1218	-	EA00602	60,709,194 	1.1346	37.01%	41.340%
+TS-234	BIG		Processing tomato	S. lycopersicum	-	-	EA01371	50,500,484 	4.3881	84.96%	94.901%
+TS-235	BIG		Processing tomato	S. lycopersicum	-	-	EA00892	63,712,392 	1.3739	35.51%	39.665%
+TS-236	BIG		Processing tomato	S. lycopersicum	-	-	EA02732	46,209,048 	2.8558	76.40%	85.339%
+TS-237	BIG	Platense	Vintage Fresh Market	S. lycopersicum	LA3243	-	-	84,368,124 	5.1904	46.60%	52.052%
+TS-238	CER	Macas	Wild  species 	S. lycopersicum var cerasiforme	LA1228	PI379047	-	82,695,138 	8.4851	74.60%	83.329%
+TS-239	BIG	NC EBR-5	Modern Fresh Market	S. lycopersicum	LA3845	-	-	49,228,164 	3.7429	84.77%	94.689%
+TS-240	CER	Arroyo Rico	Wild  species 	S. lycopersicum var cerasiforme	LA3136	-	-	77,836,962 	5.8453	85.23%	95.202%
+TS-241	BIG	Quito	Latin American cultivar 	S. lycopersicum	LA0126	-	-	130,923,728 	13.422	69.47%	77.598%
+TS-242	BIG	Ayacucho	Latin American cultivar 	S. lycopersicum	LA0134C	-	-	52,346,726 	5.7553	87.43%	97.660%
+TS-243	CER			S. lycopersicum var cerasiforme	-	-	EA04228	64,372,252 	4.7022	87.18%	97.381%
+TS-244	PIM	Santa Marta	Wild  species	S. pimpinellifolium	LA1578	-	-	59,679,082 	6.4418	85.22%	95.191%
+TS-245	BIG		Processing tomato	S. lycopersicum	-	-	EA03126	70,244,086 	7.1322	88.43%	98.777%
+TS-246	BIG		Processing tomato	S. lycopersicum	-	-	EA00983	66,506,354 	4.4767	86.92%	97.090%
+TS-247	CER	N 795 Pescio	cultivar	S. lycopersicum var cerasiforme	-	-	-	84,355,082 	7.801	87.85%	98.129%
+TS-248	CER			S. lycopersicum var cerasiforme	-	-	-	69,638,116 	6.9767	87.04%	97.224%
+TS-249	BIG	Merida	Landrace/Latin American cultivar 	S. lycopersicum	LA1462	-	-	59,304,384 	6.4582	87.61%	97.861%
+TS-250	CER			S. lycopersicum var cerasiforme	-	-	EA03539	77,614,104 	7.4811	88.51%	98.866%
+TS-251	BIG			S. lycopersicum	-	PI647249	EA04001	63,465,030 	5.767	88.04%	98.341%
+TS-252	CER		cocktail tomato	S. lycopersicum var cerasiforme	-	-	EA01802	65,682,872 	6.5933	88.08%	98.386%
+TS-253	BIG	Heinz 1706-BG	Modern Processing	S. lycopersicum	LA4345	-	-	48,396,690 	4.9084	85.62%	95.638%
+TS-254	CER			S. lycopersicum var cerasiforme	-	-	EA02979	50,926,510 	5.1124	86.50%	96.621%
+TS-255	BIG		Processing tomato	S. lycopersicum	-	-	EA03002	76,063,882 	8.5891	88.38%	98.721%
+TS-256	BIG		Latin American cultivar 	S. lycopersicum	LA2260		EA00744	75,213,562 	8.0465	87.80%	98.073%
+TS-257	CER	Marpha N2	cultivar	S. lycopersicum var cerasiforme	-	-	-	129,681,962 	6.7014	35.90%	40.101%
+TS-258	CER	Minibel	cultivar	S. lycopersicum var cerasiforme	-	-	-	61,363,742 	6.3153	86.50%	96.621%
+TS-259	BIG		Processing tomato	S. lycopersicum	-	-	EA01712	49,193,058 	5.6535	87.17%	97.369%
+TS-260	CER	Cerise Orange dUzès	cultivar	S. lycopersicum var cerasiforme	-	-	-	118,178,442 	5.9355	30.73%	34.326%
+TS-261	BIG		Wild  species 	S. lycopersicum	LA1511 	-	EA01444	64,015,156 	7.075	87.85%	98.129%
+TS-262	CER		Wild  species 	S. lycopersicum var cerasiforme	LA1247 	PI379058 	EA01403	60,870,064 	6.9005	87.92%	98.207%
+TS-263	BIG	Rio Grande	Processing tomato	S. lycopersicum	LA3343	-	-	61,969,662 	5.7765	49.45%	55.236%
+TS-264	BIG	King Humbert #1	Vintage Fresh Market	S. lycopersicum	LA0025	-	-	78,066,968 	8.2726	71.02%	79.330%
+TS-265	PIM	Hacienda Buenos Aires	Wild  species	S. pimpinellifolium	LA0400	-	-	64,049,386 	6.6098	63.35%	70.762%
+TS-266	PIM	Santo Tome	Wild  species	S. pimpinellifolium	LA1478	-	-	78,493,852 	8.2239	65.52%	73.186%
+TS-267	PIM	San Ignacia de Moxos	Wild  species	S. pimpinellifolium	LA2660	-	-	230,711,206 	21.2251	72.34%	80.804%
+TS-268	BIG		cultivar	S. lycopersicum	-	-	EA01915	117,076,654 	10.7126	69.83%	78.001%
+TS-269	BIG	Canestrino	Landrace	S. lycopersicum	-	-	-	133,781,682 	12.1746	53.65%	59.927%
+TS-270	BIG			S. lycopersicum	-	-	EA03174	147,323,878 	14.3822	65.08%	72.695%
+TS-271	CER	Linosa	landrace	S. lycopersicum var cerasiforme	-	-	-	63,196,022 	6.817	64.79%	72.371%
+TS-272	BIG		Processing tomato	S. lycopersicum	-	-	EA06878	36,096,976 	3.6523	55.66%	62.173%
+TS-273	CER	PE-63	Wild  species 	S. lycopersicum var cerasiforme	LA2640 	-	EA01545	62,610,508 	6.0016	87.04%	97.224%
+TS-274	BIG		Cocktail/Processing tomato	S. lycopersicum	-	-	EA03613	166,284,734 	7.3566	72.75%	81.262%
+TS-275	BIG		Processing tomato	S. lycopersicum	-	-	EA01049	131,407,834 	6.0504	70.28%	78.503%
+TS-276	BIG		Cocktail/Processing tomato	S. lycopersicum	-	-	EA03650	161,432,506 	6.7012	70.01%	78.202%
+TS-277	BIG	Hunt100	Modern Processing	S. lycopersicum	LA3144	-	-	63,585,828 	6.9189	64.77%	72.348%
+TS-278	BIG	Early Santa Clara	Vintage Processing	S. lycopersicum	LA0517	-	-	137,607,590 	12.8504	70.58%	78.838%
+TS-280	CER	Cerise du sud ouest N 2	Wild  species 	S. lycopersicum var cerasiforme	-	-	-	64,901,748 	7.0607	88.44%	98.788%
+TS-281	CER	San Martin de Pangoa	Wild  species 	S. lycopersicum var cerasiforme	LA1286	PI365920	-	49,337,604 	5.5128	87.61%	97.861%
+TS-282	BIG	Ucra2	Landrace	S. lycopersicum	-	-	-	59,695,522 	6.477	88.05%	98.352%
+TS-283	CER	Cisterno	cultivar	S. lycopersicum var cerasiforme	-	-	-	54,401,908 	5.8518	88.17%	98.486%
+TS-284	CER	Cerazjnho	landrace	S. lycopersicum var cerasiforme	-	-	-	67,822,846 	3.8467	84.70%	94.610%
+TS-285	BIG		Processing tomato	S. lycopersicum	-	PI303752	EA05612	78,408,464 	3.5132	82.40%	92.041%
+TS-286	CER	Allungato piccolo	landrace	S. lycopersicum var cerasiforme	-	-	-	71,485,374 	2.0054	65.54%	73.209%
+TS-287	CER		Cocktail tomato	S. lycopersicum var cerasiforme	-	-	EA00915	77,659,092 	3.8689	82.32%	91.952%
+TS-288	BIG		Processing tomato	S. lycopersicum	-	-	EA04236	60,403,012 	2.6381	74.06%	82.725%
+TS-289	CER		Latin American cultivar 	S. lycopersicum var cerasiforme	LA1244	PI379044	EA00610	80,905,454 	1.5593	54.20%	60.542%
+TS-290	CER	N 2257 Dikorastushii...	cultivar	S. lycopersicum var cerasiforme	-	-	-	74,705,530 	7.9286	61.85%	69.087%
+TS-291	PIM	Viru to Galumga	Wild  species	S. pimpinellifolium	LA1589 	PI407545 	EA01467	56,475,566 	5.5698	47.57%	53.136%
+TS-292	BIG		Processing tomato	S. lycopersicum	-	-	EA06902	54,360,380 	5.4429	72.40%	80.871%
+TS-293	BIG		Cocktail/Processing tomato	S. lycopersicum	-	-	EA03439	61,990,652 	6.9514	88.62%	98.989%
+TS-294	CER	N 933	cultivar	S. lycopersicum var cerasiforme	-	-	-	90,201,026 	3.5056	80.81%	90.265%
+TS-295	CER	Puna	Latin American cultivar; Wild  species	S. lycopersicum var cerasiforme	LA0417	-	-	129,491,834 	13.877	75.96%	84.848%
+TS-296	BIG	Droplet		S. lycopersicum	-	-	-	69,494,486 	7.5893	87.40%	97.626%
+TS-297	BIG			S. lycopersicum	-	PI291344	EA05550	63,579,442 	5.2764	54.11%	60.441%
+TS-298	CER	San Francisco	Wild  species 	S. lycopersicum var cerasiforme	LA2308	-	-	78,187,158 	7.6211	73.42%	82.011%
+TS-299	CER	Bomboiza	Wild  species 	S. lycopersicum var cerasiforme	LA2131	-	-	59,276,558 	5.9389	88.32%	98.654%
+TS-300	CER	Tena	Wild  species 	S. lycopersicum var cerasiforme	LA1231 	PI379049	-	72,938,256 	7.7547	79.25%	88.523%
+TS-301	CER	Santa Cruz near Shintuyo	Wild  species 	S. lycopersicum var cerasiforme	LA2688	-	-	68,477,920 	7.2726	54.02%	60.341%
+TS-302	CER	Upper Parana	Wild  species 	S. lycopersicum var cerasiforme	LA1543	-	-	71,594,600 	7.1511	88.24%	98.565%
+TS-303	CER	Los Banos	Wild  species 	S. lycopersicum var cerasiforme	LA1461	-	-	115,949,376 	11.8708	75.64%	84.490%
+TS-304	CER	Tarapoto	 Latin American cultivar 	S. lycopersicum var cerasiforme	LA2307	-	-	55,952,948 	6.357	87.31%	97.526%
+TS-305	F1			S. lycopersicum	-	-	-	56,512,010 	6.1436	86.76%	96.911%
+TS-306	F1			S. lycopersicum	-	-	-	53,556,738 	5.7831	86.82%	96.978%
+TS-307	F1			S. lycopersicum	-	-	-	49,716,298 	5.5501	86.45%	96.565%
+TS-308	F1			S. lycopersicum	-	-	-	63,122,268 	7.1041	87.83%	98.107%
+TS-309	F1			S. lycopersicum	-	-	-	55,539,854 	6.2933	85.66%	95.683%
+TS-310	F1			S. lycopersicum	-	-	-	56,190,158 	6.1948	87.69%	97.950%
+TS-311	F1			S. lycopersicum	-	-	-	49,305,898 	5.5869	86.55%	96.677%
+TS-312	F1			S. lycopersicum	-	-	-	51,000,000 	5.7292	85.56%	95.571%
+TS-313	F1			S. lycopersicum	-	-	-	56,213,220 	6.3224	87.60%	97.850%
+TS-314	F1			S. lycopersicum	-	-	-	83,581,614 	9.1428	87.95%	98.241%
+TS-315	F1			S. lycopersicum	-	-	-	90,833,040 	9.8549	89.02%	99.436%
+TS-316	F1			S. lycopersicum	-	-	-	104,127,822 	11.2004	88.98%	99.391%
+TS-317	F1			S. lycopersicum	-	-	-	98,064,894 	10.4325	88.20%	98.520%
+TS-318	F1			S. lycopersicum	-	-	-	72,437,342 	8.0924	88.01%	98.308%
+TS-319	F1			S. lycopersicum	-	-	-	65,253,192 	7.0584	87.75%	98.017%
+TS-320	F1			S. lycopersicum	-	-	-	54,142,532 	6.1347	87.10%	97.291%
+TS-321	F1			S. lycopersicum	-	-	-	81,951,812 	9.0878	88.43%	98.777%
+TS-361	wild			S. pennellii	LA0716			66,970,352 	5.9195	69.82%	77.989%
+TS-400	BIG		inbred line	S. lycopersicum	-	-	-	334,612,256 	35.1547	88.01%	98.308%
+TS-401	BIG		inbred line	S. lycopersicum	-	-	-	80,390,538 	7.4704	87.84%	98.118%
+TS-402	wild			S. peruvianum	-	PI126935	-	120,635,318 	11.5753	78.28%	87.439%
+TS-403	wild			S. peruvianum	-	PI128650	-	56,298,762 	5.8533	71.98%	80.402%
+TS-404	wild			S. peruvianum	-	PI128657	-	68,716,060 	6.6259	73.78%	82.413%
+TS-405	wild			S. peruvianum		PI 128660		54,044,588 	5.4851	71.29%	79.631%
+TS-406	wild			S. chilense	 LA1969	-	-	55,312,362 	5.4142	69.85%	78.023%
+TS-407	wild			S. habrochaites	-	PI247087	-	69,102,540 	6.5649	69.55%	77.688%
+TS-408	wild			S. peruvianum 		PI 270435	-	63,501,300 	6.4448	71.41%	79.765%
+TS-409	BIG		Landrace	S. lycopersicum	-	PI124161	-	79,017,030 	8.7349	86.36%	96.465%
+TS-410	PIM		Wild  species	S. pimpinellifolium	-	PI370093	-	107,834,208 	11.6734	87.12%	97.314%
+TS-411	PIM		Wild  species	S. pimpinellifolium	LA0480	-	-	67,724,332 	7.4531	85.31%	95.292%
+TS-412	PIM		Wild  species	S. pimpinellifolium	LA0722	-	-	48,229,486 	5.3719	83.65%	93.438%
+TS-413	PIM		Wild  species	S. pimpinellifolium	LA1242	-	-	71,494,348 	7.8855	85.77%	95.806%
+TS-414	PIM		Wild  species	S. pimpinellifolium	LA1341	PI379020 	-	52,231,494 	5.9198	84.39%	94.264%
+TS-415	PIM		Wild  species	S. pimpinellifolium	LA1596 	PI407552	-	81,205,500 	8.8466	86.64%	96.777%
+TS-416	PIM		Wild  species	S. pimpinellifolium	LA1847	-	-	78,080,118 	8.4611	86.50%	96.621%
+TS-417	PIM		Wild  species	S. pimpinellifolium	LA1933	-	-	62,842,316 	7.0108	84.36%	94.231%
+TS-418	PIM		Wild  species	S. pimpinellifolium	LA2147	-	-	58,411,394 	6.5738	86.06%	96.130%
+TS-419	PIM		Wild  species	S. pimpinellifolium	LA2173	-	-	63,085,572 	6.9631	86.07%	96.141%
+TS-420	PIM		Wild  species	S. pimpinellifolium	LA2184	-	-	58,757,118 	6.5447	85.75%	95.783%
+TS-421	PIM		Wild  species	S. pimpinellifolium	LA2187	-	-	60,234,898 	6.5732	86.09%	96.163%
+TS-422	PIM		Wild  species	S. pimpinellifolium	LA2425	-	-	57,340,550 	6.4109	84.52%	94.409%
+TS-423	CER		Wild  species 	S. lycopersicum var cerasiforme	LA2840	-	-	56,710,824 	6.3477	86.24%	96.331%
+TS-424	PIM		Wild  species	S. pimpinellifolium	-	PI126947	-	50,455,606 	5.6305	84.52%	94.409%
+TS-425	PIM		Wild  species	S. pimpinellifolium	-	PI126925	-	61,076,076 	6.6946	84.39%	94.264%
+TS-426	CER	SAL345	cultivar	S. lycopersicum var cerasiforme	LA1263 	PI365918 	-	50,261,164 	5.5482	86.64%	96.777%
+TS-427	CER		cultivar	S. lycopersicum var cerasiforme	-	PI126933	-	49,416,036 	5.5649	86.01%	96.074%
+TS-428	CER		cultivar	S. lycopersicum var cerasiforme	-	PI126953	-	46,725,866 	5.2153	86.47%	96.587%
+TS-429	PIM		Wild  species	S. pimpinellifolium	-	PI126954	-	72,177,906 	7.9523	86.06%	96.130%
+TS-430	CER	BL 587-S	cultivar	S. lycopersicum var cerasiforme	-	PI127807	-	72,086,752 	8.0026	87.51%	97.749%
+TS-431	CER	BL 587	cultivar	S. lycopersicum var cerasiforme	-	PI127807	-	66,106,162 	7.4601	87.56%	97.805%
+TS-432	PIM		Wild  species	S. pimpinellifolium	-	PI270449	-	50,055,308 	5.7034	86.69%	96.833%
+TS-433	PIM		Wild  species	S. pimpinellifolium	-	PI370093	-	50,598,418 	5.7367	86.60%	96.733%
+TS-434	PIM	SAL1871 	Wild  species	S. pimpinellifolium	LA1591	PI407547	-	62,303,384 	6.8987	85.59%	95.605%
+TS-435	PIM	SAL1875	Wild  species	S. pimpinellifolium	LA1595	PI407551	-	59,337,598 	6.6541	85.05%	95.001%
+TS-436	CER	BL 359	cultivar	S. lycopersicum var cerasiforme	-	-	-	56,122,786 	6.3047	88.07%	98.375%
+TS-437	PIM	SAL1858	Wild  species	S. pimpinellifolium	LA1578	-	-	50,443,344 	5.717	84.48%	94.365%
+TS-438	PIM	CN7542	Wild  species	S. pimpinellifolium	-	-	-	68,125,308 	7.48	86.30%	96.398%
+TS-439	PIM		Wild  species	S. pimpinellifolium	LA2656	PI503524	-	69,362,262 	7.6448	85.42%	95.415%
+TS-440	PIM		Wild  species	S. pimpinellifolium	LA2857	-	-	58,860,878 	6.5499	86.33%	96.431%
+TS-441	PIM		Wild  species	S. pimpinellifolium	LA4431	-	-	65,845,734 	7.273	85.13%	95.091%
+TS-450	CER	my	cultivar	S. lycopersicum var cerasiforme				219,165,344 	24.4295	88.16%	98.475%
+TS-501	BIG	Amish Salad		S. lycopersicum				56,343,658 	6.4375	88.12%	98.431%
+TS-502	BIG	Aunt Ruby's German Green		S. lycopersicum				56,108,024 	6.3843	87.94%	98.229%
+TS-503	BIG	Black		S. lycopersicum				51,356,624 	5.8984	86.09%	96.163%
+TS-504	BIG	Bloody Butcher		S. lycopersicum				86,577,846 	9.7733	88.31%	98.643%
+TS-505	BIG	Brandywine		S. lycopersicum				61,266,902 	6.9775	87.85%	98.129%
+TS-506	CER	Chadwick Cherry		S. lycopersicum var cerasiforme				56,598,208 	6.4112	87.17%	97.369%
+TS-507	BIG	Cherokee Purple		S. lycopersicum				52,039,084 	5.5272	87.55%	97.794%
+TS-508	CER	Cherry Roma		S. lycopersicum var cerasiforme				55,673,044 	5.0034	86.41%	96.520%
+TS-509	BIG	Clear Pink Slicer		S. lycopersicum				53,804,108 	5.8031	85.84%	95.884%
+TS-510	BIG	Costoluto Genovese		S. lycopersicum				57,291,724 	6.3306	88.33%	98.665%
+TS-511	BIG	Crimson Sprinter		S. lycopersicum				54,721,218 	5.86	87.40%	97.626%
+TS-512	BIG	Czech Bush Red		S. lycopersicum				53,420,802 	5.7197	87.65%	97.906%
+TS-513	BIG	Dixie Golden Giant		S. lycopersicum				51,821,216 	3.5887	79.10%	88.355%
+TS-514	BIG	Early Red Chief		S. lycopersicum				56,337,940 	5.1926	86.24%	96.331%
+TS-515	BIG	Garden Peach		S. lycopersicum				56,516,904 	5.6036	87.32%	97.537%
+TS-516	BIG	German Head		S. lycopersicum				48,219,138 	5.3714	88.17%	98.486%
+TS-517	BIG	German Queen		S. lycopersicum				62,034,688 	6.1478	88.05%	98.352%
+TS-518	BIG	Giant Belgium		S. lycopersicum				54,096,346 	6.0742	87.45%	97.682%
+TS-519	BIG	Giant Oxheart		S. lycopersicum				70,555,854 	8.0022	87.86%	98.140%
+TS-520	BIG	Glacier		S. lycopersicum				58,318,200 	6.1416	87.97%	98.263%
+TS-521	BIG	Green Zebra		S. lycopersicum				63,404,982 	7.2801	88.16%	98.475%
+TS-522	BIG	Gulf State Market 		S. lycopersicum				52,072,854 	6.0111	86.22%	96.308%
+TS-523	BIG	Hillbilly		S. lycopersicum				57,532,144 	6.3787	77.97%	87.093%
+TS-524	BIG	Japanese Black Trifele		S. lycopersicum				59,721,694 	5.8334	87.80%	98.073%
+TS-525	BIG	Kentucky Beefsteak		S. lycopersicum				64,803,854 	6.1395	88.16%	98.475%
+TS-526	CER	Large Red Cherry		S. lycopersicum var cerasiforme				56,123,994 	6.3725	86.89%	97.057%
+TS-527	BIG	Legend		S. lycopersicum				56,630,724 	6.5484	87.86%	98.140%
+TS-528	CER	Lemon Drop		S. lycopersicum var cerasiforme				66,985,214 	7.533	87.42%	97.649%
+TS-529	BIG	Livingston's Globe		S. lycopersicum				51,763,084 	5.9528	87.88%	98.162%
+TS-530	BIG	Livingston's Golden Queen		S. lycopersicum				59,123,042 	6.8099	88.30%	98.632%
+TS-531	BIG	Livingston's Stone		S. lycopersicum				64,348,688 	7.3274	88.47%	98.821%
+TS-532	CER	Maglia Rosa Cherry		S. lycopersicum var cerasiforme				93,991,818 	10.3786	88.79%	99.179%
+TS-533	BIG	Marmande VFA		S. lycopersicum				52,933,584 	6.0347	87.60%	97.850%
+TS-534	BIG	Martian Giant		S. lycopersicum				55,118,806 	6.3797	88.01%	98.308%
+TS-535	BIG	Matina		S. lycopersicum				69,714,420 	4.5867	86.13%	96.208%
+TS-536	CER	Matt's Wild Cherry		S. lycopersicum var cerasiforme				57,429,286 	6.1687	87.60%	97.850%
+TS-537	CER	Mexico Midget		S. lycopersicum var cerasiforme				68,282,214 	6.7663	87.83%	98.107%
+TS-538	BIG	Micado Violettor		S. lycopersicum				49,270,028 	5.5201	86.85%	97.012%
+TS-539	BIG	Mr. Stripey		S. lycopersicum				53,117,262 	5.9007	87.50%	97.738%
+TS-540	BIG	Nyagous		S. lycopersicum				68,339,828 	7.7346	88.01%	98.308%
+TS-541	BIG	Oaxacan Pink		S. lycopersicum				63,804,008 	7.1416	88.23%	98.553%
+TS-542	BIG	Old Brooks		S. lycopersicum				48,359,536 	5.4907	86.65%	96.789%
+TS-543	BIG	Orange Queen		S. lycopersicum				50,365,676 	5.6935	86.77%	96.923%
+TS-544	BIG	Oregon Spring Bush		S. lycopersicum				46,750,616 	5.3114	86.69%	96.833%
+TS-545	CER	Peacevine Cherry		S. lycopersicum var cerasiforme				50,335,112 	5.6209	85.64%	95.660%
+TS-546	BIG	Peron Sprayless		S. lycopersicum				52,150,826 	5.9178	87.58%	97.827%
+TS-547	BIG	Ponderosa Pink		S. lycopersicum				48,139,638 	5.4494	86.68%	96.822%
+TS-548	BIG	Ponderosa Red		S. lycopersicum				48,262,276 	5.5228	86.60%	96.733%
+TS-549	BIG	Porter		S. lycopersicum				52,030,550 	6.0107	86.80%	96.956%
+TS-550	BIG	Red Calabash		S. lycopersicum				43,260,782 	5.0419	86.51%	96.632%
+TS-551	BIG	Red House Free Standing		S. lycopersicum				55,413,226 	6.3731	88.10%	98.408%
+TS-552	CER	Red Pear		S. lycopersicum var cerasiforme				69,612,494 	7.7233	88.12%	98.431%
+TS-553	BIG	Rose Tomato		S. lycopersicum				49,717,472 	5.763	87.75%	98.017%
+TS-554	BIG	Santiam		S. lycopersicum				58,030,670 	6.6828	87.99%	98.285%
+TS-555	BIG	Skorospelka Red 		S. lycopersicum				60,174,276 	6.89	88.12%	98.431%
+TS-556	BIG	St. Pierre		S. lycopersicum				54,676,616 	9.4727	88.57%	98.933%
+TS-557	BIG	Stupice		S. lycopersicum				55,422,400 	5.5491	87.69%	97.950%
+TS-558	BIG	Sunray		S. lycopersicum				50,632,740 	5.6933	87.08%	97.269%
+TS-559	BIG	Super Sioux		S. lycopersicum				51,502,824 	5.307	87.62%	97.872%
+TS-560	CER	Thai Pink Cherry		S. lycopersicum var cerasiforme				64,329,154 	7.4311	87.89%	98.174%
+TS-561	BIG	Thessaloniki		S. lycopersicum				48,552,716 	5.3687	87.55%	97.794%
+TS-562	BIG	Three Sisters		S. lycopersicum				54,571,122 	6.0957	87.23%	97.436%
+TS-563	BIG	Tigerella Orange		S. lycopersicum				61,010,054 	6.8818	87.53%	97.772%
+TS-564	CER	Tommy Toe		S. lycopersicum var cerasiforme				52,519,908 	5.9722	87.28%	97.492%
+TS-565	BIG	Valencia		S. lycopersicum				49,417,674 	5.4818	87.05%	97.235%
+TS-566	BIG	Watermelon Beefsteak		S. lycopersicum				55,503,336 	6.0647	87.05%	97.235%
+TS-567	BIG	Wisconsin 55		S. lycopersicum				59,348,748 	6.7038	87.78%	98.051%
+TS-568	BIG	Yellow Perfection		S. lycopersicum				57,449,418 	6.6052	88.03%	98.330%
+TS-569	BIG	Zapotec		S. lycopersicum				59,940,812 	6.8552	88.00%	98.297%
+TS-570	BIG	Abraham Lincoln Original 		S. lycopersicum				62,602,416 	7.0316	87.98%	98.274%
+TS-571	BIG	Amana Orange		S. lycopersicum				120,007,666 	12.7804	89.11%	99.536%
+TS-572	BIG	Andrew Rahart's Jumbo Red		S. lycopersicum				54,903,780 	6.1128	86.97%	97.146%
+TS-573	BIG	Anna Russian		S. lycopersicum				57,056,134 	6.3363	87.24%	97.448%
+TS-574	BIG	Arkansas Traveler		S. lycopersicum				54,151,242 	6.0796	85.35%	95.336%
+TS-575	BIG	Azoychka Russian		S. lycopersicum				54,121,108 	6.2	86.66%	96.800%
+TS-576	BIG	Beefsteak		S. lycopersicum				62,909,892 	7.1346	87.69%	97.950%
+TS-577	BIG	Black Brandywine		S. lycopersicum				71,227,544 	8.0834	88.37%	98.710%
+TS-578	BIG	Black Krim		S. lycopersicum				51,539,152 	5.8894	86.64%	96.777%
+TS-579	BIG	Black Prince		S. lycopersicum				52,785,472 	5.962	87.61%	97.861%
+TS-580	BIG	Black Sea Man		S. lycopersicum				145,106,300 	15.8707	89.11%	99.536%
+TS-581	BIG	Box Car Willie		S. lycopersicum				63,068,978 	7.2044	87.76%	98.028%
+TS-582	CER	Brown Berry		S. lycopersicum var cerasiforme				66,134,582 	7.4825	86.72%	96.867%
+TS-583	BIG	Burbank		S. lycopersicum				53,294,210 	6.1258	87.75%	98.017%
+TS-584	BIG	Caro Rich		S. lycopersicum				61,433,112 	6.742	87.94%	98.229%
+TS-585	CER	Chocolate Cherry		S. lycopersicum var cerasiforme				65,492,472 	7.389	87.87%	98.151%
+TS-586	BIG	Christmas Grapes		S. lycopersicum				49,044,082 	5.5785	87.13%	97.325%
+TS-587	BIG	Double Rich		S. lycopersicum				53,367,544 	6.1016	88.23%	98.553%
+TS-588	BIG	Dr. Wyche's Yellow		S. lycopersicum				64,084,342 	6.8444	88.07%	98.375%
+TS-589	BIG	Druzba		S. lycopersicum				53,538,524 	6.2034	86.92%	97.090%
+TS-590	CER	Gardener's Delight		S. lycopersicum var cerasiforme				56,229,754 	6.4162	86.37%	96.476%
+TS-591	BIG	Georgia Streak		S. lycopersicum				56,007,038 	6.4509	87.35%	97.570%
+TS-592	BIG	German Johnson Pink		S. lycopersicum				53,718,272 	6.0239	87.52%	97.760%
+TS-593	BIG	German Red Strawberry		S. lycopersicum				62,327,018 	6.8862	88.20%	98.520%
+TS-594	CER	Gold Currant		S. lycopersicum var cerasiforme				74,821,924 	8.4202	87.77%	98.040%
+TS-595	BIG	Golden Jubilee		S. lycopersicum				85,428,046 	9.7549	88.85%	99.246%
+TS-596	BIG	Golden Ponderosa		S. lycopersicum				55,052,126 	6.168	87.49%	97.727%
+TS-597	BIG	Great White Beefsteak		S. lycopersicum				79,209,562 	8.9326	88.52%	98.877%
+TS-598	CER	Green Grape		S. lycopersicum var cerasiforme				57,724,124 	6.3877	87.50%	97.738%
+TS-599	BIG	Jaune Flammee		S. lycopersicum				49,443,886 	5.4085	88.13%	98.442%
+TS-600	BIG	Kellogg's Breakfast		S. lycopersicum				48,859,948 	5.4855	87.32%	97.537%
+TS-601	CER	LA1673		S. lycopersicum var cerasiforme				54,229,620 	6.1756	85.60%	95.616%
+TS-602	BIG	Lillian's Yellow Heirloom		S. lycopersicum				54,819,360 	6.1776	86.65%	96.789%
+TS-603	BIG	Marvel Striped		S. lycopersicum				50,219,232 	5.6566	87.44%	97.671%
+TS-604	BIG	Mule Team		S. lycopersicum				76,015,826 	8.603	88.52%	98.877%
+TS-605	BIG	Old German		S. lycopersicum				68,407,158 	7.0208	87.82%	98.095%
+TS-606	BIG	Omar's Lebanese		S. lycopersicum				55,519,882 	6.1039	87.82%	98.095%
+TS-607	BIG	Orange Strawberry		S. lycopersicum				53,524,088 	6.1305	87.54%	97.783%
+TS-608	BIG	Paul Robeson		S. lycopersicum				63,061,748 	7.1188	88.12%	98.431%
+TS-609	BIG	Pineapple		S. lycopersicum				49,531,882 	5.6516	87.06%	97.247%
+TS-610	CER	Pink Ping Pong		S. lycopersicum var cerasiforme				105,875,262 	11.5688	89.15%	99.581%
+TS-611	BIG	Prize of the Trials Cherry		S. lycopersicum				54,990,554 	6.1396	88.06%	98.364%
+TS-612	BIG	Prudens Purple		S. lycopersicum				48,500,606 	5.4037	87.28%	97.492%
+TS-613	BIG	Rainbow		S. lycopersicum				52,582,744 	5.9769	87.18%	97.381%
+TS-614	CER	Red Currant		S. lycopersicum var cerasiforme				48,294,974 	5.5023	85.22%	95.191%
+TS-615	CER	Red Fig Tomato		S. lycopersicum var cerasiforme				62,069,744 	7.0298	87.98%	98.274%
+TS-616	BIG	Red Star		S. lycopersicum				59,868,988 	6.9517	88.05%	98.352%
+TS-617	BIG	Red Zebra		S. lycopersicum				53,660,440 	6.2058	87.59%	97.839%
+TS-618	CER	Riesentraube		S. lycopersicum var cerasiforme				59,817,888 	6.7322	88.19%	98.509%
+TS-619	BIG	Silvery Fir Tree		S. lycopersicum				52,289,016 	5.9484	87.75%	98.017%
+TS-620	BIG	Snowberry		S. lycopersicum				67,880,490 	7.67	88.27%	98.598%
+TS-621	BIG	Soldacki		S. lycopersicum				61,813,152 	7.0872	87.14%	97.336%
+TS-622	BIG	Sub-Arctic Plenty		S. lycopersicum				63,396,644 	7.2721	86.91%	97.079%
+TS-623	CER	Sugar Lump		S. lycopersicum var cerasiforme				54,284,302 	6.1115	85.43%	95.426%
+TS-624	BIG	Vintage Wine		S. lycopersicum				58,082,914 	6.6673	87.69%	97.950%
+TS-625	BIG	Wapsipinicon Peach		S. lycopersicum				115,731,588 	13.0174	89.09%	99.514%
+TS-626	BIG	White Wonder		S. lycopersicum				51,699,826 	5.8835	86.92%	97.090%
+TS-627	BIG	Yellow Brandywine		S. lycopersicum				55,176,080 	6.299	86.63%	96.766%
+TS-628	CER	Yellow Cherry		S. lycopersicum var cerasiforme				68,713,724 	7.4629	87.60%	97.850%
+TS-629	BIG	Yellow Pear		S. lycopersicum				48,551,752 	5.4814	86.26%	96.353%
+TS-630	BIG	Florida47		S. lycopersicum				57,019,308 	6.0041	88.10%	98.408%
+TS-631	BIG	Celebrity VFFNTA Hybrid	F1	S. lycopersicum				51,251,762 	4.9841	86.80%	96.956%
+TS-632	BIG	Mountain Spring VFF Hybrid	F1	S. lycopersicum				56,913,482 	6.4718	87.57%	97.816%
+TS-633	BIG	Bush Early Girl VFFNT Hybrid	F1	S. lycopersicum				53,371,110 	6.0167	86.83%	96.990%
+TS-634	BIG	BHN 589 VFFT Hybrid	F1	S. lycopersicum				55,231,392 	6.3204	87.50%	97.738%
+TS-635	BIG	Tasti-Lee VFFF Hybrid	F1	S. lycopersicum				56,937,932 	6.5331	87.81%	98.084%
+TS-636	BIG	Better Boy Hybrid	F1	S. lycopersicum				52,699,952 	6.009	87.18%	97.381%
+TS-637	BIG	Better Bush VFN Hybrid	F1	S. lycopersicum				57,849,674 	6.7221	87.92%	98.207%
+TS-638	BIG	Solar Fire VFFF Hybrid	F1	S. lycopersicum				55,965,968 	6.3176	88.11%	98.419%
+TS-639	BIG	Orangnic Paul Robeson Heriloom		S. lycopersicum				55,743,446 	6.2667	87.75%	98.017%
+TS-640	BIG	FL8059		S. lycopersicum				131,501,442 	14.3254	88.86%	99.257%
+TS-641	BIG	Cuore_de_Toro		S. lycopersicum				40,068,946 	4.6097	87.98%	98.274%
+TS-642	BIG	John_Baer		S. lycopersicum				43,467,316 	5.4895	88.09%	98.397%
+TS-643	BIG	Livingstons_Paragon		S. lycopersicum				43,661,134 	2.2217	79.10%	88.355%
+TS-644	BIG	Moonglow		S. lycopersicum				41,173,962 	3.5519	85.86%	95.906%
+TS-645	BIG	Orange_Oxheart		S. lycopersicum				38,613,076 	5.0458	87.93%	98.218%
+TS-646	BIG	Persimmon_Orange		S. lycopersicum				42,807,098 	4.7161	87.88%	98.162%
+TS-647	BIG	Red_Alert		S. lycopersicum				51,490,678 	6.46	88.06%	98.364%
+TS-648	BIG	Red_Brandywine		S. lycopersicum				52,603,288 	6.4291	88.14%	98.453%
+TS-649	BIG	Wins_All		S. lycopersicum				43,451,764 	4.8655	88.01%	98.308%
+TS-650	BIG	Bear_Creek		S. lycopersicum				38,770,886 	5.0464	88.27%	98.598%
+TS-651	CER	Isis_Candy		S. lycopersicum var cerasiforme				34,210,078 	4.5731	86.59%	96.722%
+TS-652	CER	Jelly_Bean_Hybrid	F1	S. lycopersicum var cerasiforme				42,729,860 	5.5334	86.94%	97.112%
+TS-653	BIG	Jetsonic_Hybrid	F1	S. lycopersicum				44,107,540 	3.711	86.20%	96.286%
+TS-654	BIG	Marcellino_Hybrid	F1	S. lycopersicum				43,152,338 	4.8292	87.21%	97.414%
+TS-655	BIG	Mortgage_Lifter		S. lycopersicum				43,166,756 	5.0021	88.20%	98.520%
+TS-656	BIG	Parks_Whopper	F1	S. lycopersicum				47,844,066 	6.1914	88.54%	98.900%
+TS-657	CER	SuperSweet_100_Hybrid	F1	S. lycopersicum var cerasiforme				43,144,238 	5.1469	88.05%	98.352%
+TS-658	CER	Yellow_Jelly_Bean		S. lycopersicum var cerasiforme				42,680,558 	5.4577	87.97%	98.263%
+TS-659	BIG	Oaxacan_Pink		S. lycopersicum				44,441,788 	5.6377	88.54%	98.900%
+TS-660	BIG	Moneymaker		S. lycopersicum	LA2706	PI262996	EA00840/EA02936/EA05097/EA10006	313,805,678 	31.4252	89.12%	99.548%
+TS-661	BIG	Alisa Craig		S. lycopersicum	LA2838A		EA01101/EA00240/EA01101	276,633,430 	27.2706	89.10%	99.525%
+TS-662	BIG	Gardeners delight		S. lycopersicum		PI406760	EA06086	304,014,688 	29.9013	88.46%	98.810%
+TS-663	BIG	Rutgers		S. lycopersicum	LA1090		EA00465	318,388,164 	31.6589	89.09%	99.514%
+TS-664	BIG	Galina		S. lycopersicum			EA00325	305,982,236 	30.2429	88.78%	99.168%
+TS-665	BIG	Taxi		S. lycopersicum			EA00488	296,554,582 	29.6998	89.00%	99.414%
+TS-666	BIG	Katinka Cherry		S. lycopersicum			EA00375	313,741,156 	29.4186	86.71%	96.856%
+TS-667	BIG	John's big orange		S. lycopersicum			EA00371	319,007,288 	31.3307	89.17%	99.603%
+TS-668	BIG	Allround		S. lycopersicum	LA2463		LYC1365/EA02617	341,786,386 	33.7431	89.07%	99.492%
+TS-669	BIG	Sonata		S. lycopersicum			LYC1969/EA02724	325,460,518 	30.9891	87.49%	97.727%
+TS-670	BIG	Cross Country		S. lycopersicum			LYC3897/EA03701	339,532,120 	33.4756	89.14%	99.570%
+TS-671	BIG	Iidi		S. lycopersicum			LYC3476/EA03362	293,881,272 	29.2957	88.98%	99.391%
+TS-672	BIG	Momatero		S. lycopersicum			TR00003	332,544,770 	31.5537	87.40%	97.626%
+TS-673	BIG	Rote Beere		S. lycopersicum			LYC11/EA01965/CGN15464	356,296,734 	33.8008	88.47%	98.821%
+TS-674	BIG			S. lycopersicum			LYC3340/EA03306/T1039	362,802,120 	34.0092	87.22%	97.425%
+TS-675	BIG	Dana		S. lycopersicum			EA01155	320,123,130 	31.1436	88.65%	99.023%
+TS-676	BIG	Large Pink		S. lycopersicum			EA01049	351,717,262 	34.2186	89.01%	99.425%
+TS-677	BIG			S. lycopersicum			LYC3153/EA03221	340,643,260 	33.2685	89.02%	99.436%
+TS-678	BIG			S. lycopersicum			LYC3155/LYC2513/EA03222/T828	352,215,926 	34.8125	89.29%	99.737%
+TS-679	BIG			S. lycopersicum		PI129097	EA04710	322,181,852 	31.451	88.49%	98.844%
+TS-680	BIG			S. lycopersicum		PI272654	EA05170	349,082,376 	33.7937	88.55%	98.911%
+TS-681	BIG	Jersey devil		S. lycopersicum	LA0118		EA00990	308,165,130 	30.3823	89.03%	99.447%
+TS-682	WILD	S. corneliomulleri		S. corneliomuelleri			EA03384/T1248	325,156,754 	21.8753	78.30%	87.462%
+TS-683	BIG	Polish Joe		S. lycopersicum			EA00157	341,475,492 	33.0363	88.88%	99.279%
+TS-684	BIG	Cal J Tm VF		S. lycopersicum			EA02054/CGN20815	350,005,712 	32.8721	88.48%	98.833%
+TS-685	BIG	The Dutchman		S. lycopersicum		PI303721		325,373,852 	30.5137	87.47%	97.704%
+TS-686	BIG	Black Cherry		S. lycopersicum	LA4451		EA00027	291,340,260 	28.6875	88.61%	98.978%
+TS-687	BIG	Anto		S. lycopersicum			EA01835/V710029	338,922,222 	33.14	89.23%	99.670%
+TS-688	BIG	Winter Tipe		S. lycopersicum			PC11029	342,091,648 	33.453	89.08%	99.503%
+TS-689	BIG	Chang Li		S. lycopersicum		PI93302	EA04243	356,071,914 	34.9219	89.15%	99.581%
+TS-690	BIG	Belmonte		S. lycopersicum			EA00892/SG16	361,667,302 	34.9554	89.16%	99.592%
+TS-691	BIG	Tiffen Mennonite		S. lycopersicum			EA01088	350,960,268 	33.949	88.91%	99.313%
+TS-692	BIG	Wheatleys Frost Resistant		S. lycopersicum		PI203232	EA04939	365,965,560 	35.3499	88.95%	99.358%
+TS-693	BIG	S. lycopersicum		S. lycopersicum		PI311117	EA05701	355,446,954 	34.525	89.07%	99.492%
+TS-694	BIG	S. lycopersicum		S. lycopersicum	LA1324	PI365925	EA05891	311,078,578 	28.1444	88.24%	98.565%
+TS-695	BIG	Chih Mu Tao Se		S. lycopersicum		PI158760	EA04828	358,824,838 	34.9059	89.09%	99.514%
+TS-696	BIG	S. lycopersicum		S. lycopersicum	LA0113	TS-127	EA00526	320,271,482 	30.8818	87.61%	97.861%
+TS-697	BIG	ES 58 Heinz		S. lycopersicum			LYC1410/EA02655	329,074,092 	32.2325	88.86%	99.257%
+TS-698	BIG	S. lycopersicum Dolmalik		S. lycopersicum		PI169588	EA04861	350,679,528 	33.5051	89.04%	99.458%
+TS-699	BIG			S. lycopersicum			LYC2962/EA03107/T556	350,056,960 	32.4557	86.77%	96.923%
+TS-700	BIG			S. lycopersicum			LYC2910/EA03058/T115	354,913,642 	35.0509	89.09%	99.514%
+TS-701	PIM			S. pimpinellifolium			LYC2798/EA02994	333,169,910 	30.3498	85.56%	95.571%
+TS-702	CER			S. lycopersicum var cerasiforme			LYC2740/EA02960	350,660,960 	34.2598	88.97%	99.380%
+TS-703	PIM			S. pimpinellifolium	LA1584	PI407541	EA00676	304,120,366 	28.4259	87.18%	97.381%
+TS-704	PIM			S. pimpinellifolium	LA1578		EA00674	346,259,212 	32.071	87.81%	98.084%
+TS-705	WILD			S. peruvianum	LA1278	PI365941	TR00005	341,079,252 	12.8202	60.81%	67.925%
+TS-706	WILD			S. chmielewskii	LA2663		TR00007	335,405,764 	24.8147	77.30%	86.345%
+TS-707	WILD			S. chmielewskii	LA2695		EA00759	344,378,728 	24.9332	77.68%	86.769%
+TS-708	WILD			S. cheesmaniae	LA0483		EA00581	329,795,238 	30.9369	87.07%	97.258%
+TS-709	BIG	S. lycopersicum x S. cheesmaniae		S. lycopersicum			CGN15820/TR00024	345,264,918 	31.9974	87.58%	97.827%
+TS-710	WILD			S. cheesmaniae	LA1401	PI 365897	EA00652	356,243,706 	33.2993	87.15%	97.347%
+TS-711	WILD			S. neorickii	LA2133		EA00729	355,805,642 	25.6911	78.47%	87.651%
+TS-712	WILD			S. neorickii	LA0735		CGN24193/TR00025	350,130,194 	25.1058	75.94%	84.825%
+TS-713	WILD			S. arcanum	LA2157		TR00008	319,841,998 	23.0233	78.74%	87.953%
+TS-714	WILD			S. arcanum	LA2172		TR00009	342,419,592 	25.3147	78.46%	87.640%
+TS-715	WILD			S. peruvianum	LA1954		EA00713	353,987,214 	22.7626	77.51%	86.579%
+TS-716	WILD			S. huaylasense	LA1983		TR00010	355,378,646 	24.344	79.69%	89.014%
+TS-717	WILD			S. huaylasense	LA1365	PI 365953	TR00011	315,560,304 	20.8542	78.74%	87.953%
+TS-718	WILD			S. chilense			CGN15532/TR00012	319,402,124 	20.1674	79.11%	88.366%
+TS-719	WILD			S. chilense			CGN15530/TR00013	327,809,052 	21.3267	78.27%	87.428%
+TS-720	WILD			S. habrochaites		PI 127827	CGN15791/TR00014	336,632,192 	21.5089	75.06%	83.842%
+TS-721	WILD			S. habrochaites		PI134418	TR00015	339,423,882 	21.5528	76.82%	85.808%
+TS-722	WILD			S. habrochaites			CGN15792/TR00016	334,488,790 	21.399	76.57%	85.529%
+TS-723	WILD			S. habrochaites	LA1718	PI 390663	EA00699	332,549,388 	21.0286	78.80%	88.020%
+TS-724	WILD			S. habrochaites	LA1777		EA00703	277,295,968 	17.8093	75.78%	84.647%
+TS-725	WILD			S. habrochaites	LA0407	PI 251304	EA0558	356,241,858 	22.2393	75.40%	84.222%
+TS-726	WILD			S. habrochaites			LYC4/TR00017	317,783,228 	20.3136	74.68%	83.418%
+TS-727	WILD			S. pennellii	LA1272	PI 365970	LYC1831/EA02701	336,518,148 	21.5933	77.57%	86.646%
+TS-728	WILD			S. pennellii	LA0716	PI 246502	EA00585	249,340,044 	16.0833	75.74%	84.602%
+TS-729	WILD			S. huaylasense	LA1364		TR00030	339,753,266 	21.7753	78.37%	87.540%
+TS-730	BIG	Large Red Cherry		S. lycopersicum			TR00018	331,309,690 	32.1365	89.17%	99.603%
+TS-731	CER	Porter		S. lycopersicum var cerasiforme			EA00940	337,475,994 	33.03	88.84%	99.235%
+TS-732	BIG	Bloody Butcher		S. lycopersicum			TR00019	308,927,328 	30.597	89.04%	99.458%
+TS-733	BIG	Brandywine		S. lycopersicum			EA01019	314,246,476 	30.3896	88.93%	99.335%
+TS-734	BIG	Dixie Golden Giant		S. lycopersicum			TR00020	358,471,248 	34.5601	89.24%	99.682%
+TS-735	BIG	Giant Belgium		S. lycopersicum			EA01037	327,988,190 	31.6279	89.12%	99.548%
+TS-736	BIG	Kentucky Beefsteak		S. lycopersicum			TR00021	336,765,600 	32.069	88.92%	99.324%
+TS-737	BIG	Marmande		S. lycopersicum		PI647486	TR00022	303,425,382 	30.054	88.96%	99.369%
+TS-738	BIG	Thessaloniki		S. lycopersicum			TR00023	338,003,662 	33.0494	89.15%	99.581%
+TS-739	BIG	Watermelon beefsteak		S. lycopersicum			EA01640	326,685,920 	32.3112	88.72%	99.101%
+TS-740	BIG			S. lycopersicum	LA4133		TR00026	298,160,742 	28.9397	88.88%	99.279%
+TS-741	BIG			S. lycopersicum	LA142		TR00027	337,795,484 	32.0855	89.09%	99.514%
+TS-742	WILD			S. galapagense	LA1044		TR00029	309,098,468 	29.4744	87.73%	97.995%
+TS-743	BIG			S. lycopersicum	LA1479		TR00028	338,145,840 	31.247	86.85%	97.012%
+TS-744	WILD			S. arcanum	LA2157			225,153,820 	19.2018	73.40%	81.988%
+TS-745	WILD			S. habrochaites			LYC4	150,234,538 	12.0365	70.00%	78.190%
+TS-746	WILD			S. pennellii	LA0716			165,798,036 	13.0569	68.68%	76.716%
