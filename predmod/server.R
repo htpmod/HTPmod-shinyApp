@@ -51,10 +51,10 @@ shinyServer(function(input, output, session) {
         for(d in dev.list()){
             dev.off()
         }
-        if(length(list.files(mydir)) == 0){
-            print(paste("Cleaning workspace:", mydir))
-            unlink(mydir, recursive=T, force=T)
-        }
+        ## if(length(list.files(mydir)) == 0){
+        print(paste("Cleaning workspace:", mydir))
+        unlink(mydir, recursive=T, force=T)
+        ## }
         ## print(names(session$clientData))
         ## print(getwd())
     })
@@ -446,7 +446,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "modeling_regression_figures.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "modeling_regression_figures.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "modeling_regression_figures.png"), width = 500*n, height = 500*n, pointsize = 12*n)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "modeling_regression_figures.svg"), width = 8.27, height = 8.27, pointsize = 10)
@@ -464,7 +464,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "modeling_classification_figures.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "modeling_classification_figures.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "modeling_classification_figures.png"), width = 500*n, height = 500*n, pointsize = 12*n)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "modeling_classification_figures.svg"), width = 8.27, height = 8.27, pointsize = 10)
@@ -584,7 +584,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "modeling_regression_evaluation.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "modeling_regression_evaluation.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "modeling_regression_evaluation.png"), width = 960, height = 960, pointsize = 24)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "modeling_regression_evaluation.svg"), width = 8.27, height = 8.27, pointsize = 10)
@@ -778,7 +778,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "modeling_classification_evaluation.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "modeling_classification_evaluation.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "modeling_classification_evaluation.png"), width = 960, height = 960, pointsize = 24)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "modeling_classification_evaluation.svg"), width = 8.27, height = 8.27, pointsize = 10)
@@ -921,7 +921,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "feature_importance.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "feature_importanc.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "feature_importanc.png"), width = 960, height = 960, pointsize = 24)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "feature_importanc.svg"), width = 8.27, height = 8.27, pointsize = 10)
@@ -1036,7 +1036,7 @@ shinyServer(function(input, output, session) {
             pdf(paste0(mydir, "/", "feature_importance.pdf"), width = 8.27, height = 8.27, pointsize = 10)
             pp()
             dev.off()
-            png(paste0(mydir, "/", "feature_importanc.png"), width = 750, height = 750, pointsize = 10)
+            png(paste0(mydir, "/", "feature_importanc.png"), width = 960, height = 960, pointsize = 24)
             pp()
             dev.off()
             svglite(paste0(mydir, "/", "feature_importanc.svg"), width = 8.27, height = 8.27, pointsize = 10)

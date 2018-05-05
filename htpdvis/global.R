@@ -103,6 +103,7 @@ predmod_example_data <- list(
 )
 
 htpdvis_example_data <- list(
+    'Misc' = c(`Edgar, 1935; Anderson's Iris Data` = "iris"), 
     'HTP: Phenome' = c(`Chen et al., 2014; Barley HTP data` = "Chen_2014_htpvis",
                        `Chen et al., 2018; Consecutive HTP experiments` = "Chen_2018_htpvis"), 
     'HTP: Metabolome' = c(`Zhu et al., 2018; Tomato metabolomes` = "Zhu_2018_metabolites"), 

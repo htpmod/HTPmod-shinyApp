@@ -1,4 +1,4 @@
-## Predicion Models 
+## Prediction Models 
 > ### Regression models (n=16)
 > > * **`BGLM`**: Bayesian Generalized Linear Model, available in *arm*
 > > * **`BLASSO`**: Bayesian Lasso, available in *monomvn*

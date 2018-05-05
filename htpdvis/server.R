@@ -81,10 +81,10 @@ shinyServer(function(input, output, session) {
         for(d in dev.list()){
             dev.off()
         }
-        if(length(list.files(mydir)) == 0){
-            print(paste("Cleaning workspace:", mydir))
-            unlink(mydir, recursive=T, force=T)
-        }
+        ## if(length(list.files(mydir)) == 0){
+        print(paste("Cleaning workspace:", mydir))
+        unlink(mydir, recursive=T, force=T)
+        ## }
         ## print(names(session$clientData))
         ## print(getwd())
     })
@@ -396,8 +396,11 @@ shinyServer(function(input, output, session) {
             cids <- sort(unique(data[, ccol]), na.last=T)
             if(length(cids) <= 3){
                 cols <- c("#ff7f00", "#1f78b4", "#33a02c")[1:length(cids)]
-            }else if(length(cids)<10){
+            }else if(length(cids)<9){
                 cols <- brewer.pal(n=length(cids), name="Set1")
+                if(length(cols) > 5){
+                    cols[6] <- '#999999'
+                }
             }else{
                 cols <- colorRampPalette(brewer.pal(n=8, name="Set1"))(length(cids))
             }
@@ -446,7 +449,7 @@ shinyServer(function(input, output, session) {
         inputData <- inputDataAnalysis()
         myValidation(inputData)
         showNotification("Rendering variables ...");
-        valx <- setdiff(inputData$nonNumeric, input$rowColor)
+        valx <- inputData$nonNumeric ## setdiff(inputData$nonNumeric, input$rowColor)
         vals <- inputData$numericCol
         div(
             selectizeInput(
@@ -621,30 +624,59 @@ shinyServer(function(input, output, session) {
                                  {
                                      if(plot){
                                          ## set.seed(123)
-                                         tsne_out <- Rtsne(inputData$mat, dims=ndims, perplexity=30, check_duplicates=F, verbose=F, max_iter=500, 
+                                         perplexity <- 30
+                                         if(nrow(inputData$mat) < 100){
+                                             perplexity <- ceiling(nrow(inputData$mat)/4)
+                                         }
+                                         tsne_out <- Rtsne(inputData$mat, dims=ndims, perplexity=perplexity, check_duplicates=F, verbose=F, max_iter=500, 
                                                            pca_center=input$center, pca_scale=input$scale)
                                          colnames(tsne_out$Y) <- paste0("t-SNE", 1:ncol(tsne_out$Y)) 
                                          
                                          setProgress(value = 0.5, detail = "making t-SNE graph ...")
                                          pltd <- tsne_out$Y
                                          if(para){
-                                             if(ncol(pltd) > 2){
-                                                 scatter3D(pltd[,1], pltd[,2], pltd[,3], phi=input$phi2, theta=input$theta2, col=pcols, pch=ppchs, colkey=F, xlab="t-SNE1", ylab="t-SNE2", zlab="t-SNE3", main="3D t-SNE")
-                                                 if(length(pchs) > 1) my.legend("bottomleft", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
-                                                 if(length(cols) > 1) my.legend("bottomright", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
-                                             }else{
-                                                 msgPlot(msg = "Figure\nLegend")
-                                                 if(length(pchs) > 1) my.legend("topleft", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
-                                                 if(length(cols) > 1) my.legend("topright", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
+                                             pp <- function(){
+                                                 if(ncol(pltd) > 2){
+                                                     scatter3D(pltd[,1], pltd[,2], pltd[,3], phi=input$phi2, theta=input$theta2, col=pcols, pch=ppchs, colkey=F, xlab="t-SNE1", ylab="t-SNE2", zlab="t-SNE3", main="3D t-SNE")
+                                                     if(length(pchs) > 1) my.legend("bottomleft", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
+                                                     if(length(cols) > 1) my.legend("bottomright", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
+                                                 }else{
+                                                     msgPlot(msg = "Figure\nLegend")
+                                                     if(length(pchs) > 1) my.legend("topleft", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
+                                                     if(length(cols) > 1) my.legend("topright", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
+                                                 }
                                              }
+                                             png(paste0(mydir, "/", "t-SNE-3D.png"), width = 960, height = 960, pointsize = 24)
+                                             pp()
+                                             dev.off()
+                                             pdf(paste0(mydir, "/", "t-SNE-3D.pdf"), width = 8.27, height = 8.27, pointsize = 10)
+                                             pp()
+                                             dev.off()
+                                             svglite(paste0(mydir, "/", "t-SNE-3D.svg"), width = 8.27, height = 8.27, pointsize = 10)
+                                             pp()
+                                             dev.off()
+                                             pp()
+                                             
                                          }else{
-                                             if(ncol(pltd) > 2){
-                                                 pairs(pltd, col=pcols, pch=ppchs, main="t-SNE", upper.panel=NULL)
-                                                 if(length(pchs) > 1) my.legend("topright", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
-                                                 if(length(cols) > 1) my.legend("right", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
-                                             }else{
-                                                 plot(pltd[,1:2], col=pcols, pch=ppchs, main="t-SNE")
+                                             pp <- function(){
+                                                 if(ncol(pltd) > 2){
+                                                     pairs(pltd, col=pcols, pch=ppchs, main="t-SNE", upper.panel=NULL)
+                                                     if(length(pchs) > 1) my.legend("topright", xpd=TRUE, legend=names(pchs), ncol=1, pch=pchs, col="grey80", text.col='grey80', title=input$rowPoint)
+                                                     if(length(cols) > 1) my.legend("right", xpd=TRUE, legend=names(cols), ncol=1, col=cols, text.col=cols, pch=16, title=input$rowColor)
+                                                 }else{
+                                                     plot(pltd[,1:2], col=pcols, pch=ppchs, main="t-SNE")
+                                                 }
                                              }
+                                             png(paste0(mydir, "/", "t-SNE-plot.png"), width = 960, height = 960, pointsize = 24)
+                                             pp()
+                                             dev.off()
+                                             pdf(paste0(mydir, "/", "t-SNE-plot.pdf"), width = 8.27, height = 8.27, pointsize = 10)
+                                             pp()
+                                             dev.off()
+                                             svglite(paste0(mydir, "/", "t-SNE-plot.svg"), width = 8.27, height = 8.27, pointsize = 10)
+                                             pp()
+                                             dev.off()
+                                             pp()
                                          }
                                      }else{
                                          return(NULL)
@@ -1037,7 +1069,7 @@ shinyServer(function(input, output, session) {
                     }else{
                         msgPlot()
                     }
-                }else if(ps[1] == "2"){ ## Plot Two Vriables: Discrete X & Continuous Y
+                }else if(ps[1] == "2"){ ## Plot Two Variables: Discrete X & Continuous Y
                     enable("miscx")
                     enable("miscy")
                     disable("miscz")
@@ -1233,9 +1265,9 @@ shinyServer(function(input, output, session) {
         "PCA_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis()
             dev.off()
         },
@@ -1272,9 +1304,9 @@ shinyServer(function(input, output, session) {
         "SOM_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'som')
             dev.off()
         },
@@ -1311,9 +1343,9 @@ shinyServer(function(input, output, session) {
         "SOM_stat_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'som', para = T)
             dev.off()
         },
@@ -1350,9 +1382,9 @@ shinyServer(function(input, output, session) {
         "K-means_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'kmc')
             dev.off()
         },
@@ -1389,9 +1421,9 @@ shinyServer(function(input, output, session) {
         "K-means_stat_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'kmc', para = T)
             dev.off()
         },
@@ -1428,9 +1460,9 @@ shinyServer(function(input, output, session) {
         "PCA_para_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(para = T)
             dev.off()
         },
@@ -1499,9 +1531,9 @@ shinyServer(function(input, output, session) {
         "Heatmap_individual_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'hca')
             dev.off()
         },
@@ -1540,9 +1572,9 @@ shinyServer(function(input, output, session) {
         "Heatmap_feature_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'hca', para = T)
             dev.off()
         },
@@ -1581,9 +1613,9 @@ shinyServer(function(input, output, session) {
         "Heatmap_whole_data.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'hca', both = T)
             dev.off()
         },
@@ -1620,9 +1652,9 @@ shinyServer(function(input, output, session) {
         "Misc_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'misc')
             dev.off()
         },
@@ -1644,78 +1676,48 @@ shinyServer(function(input, output, session) {
     
     output$downloadtsne1svg <- downloadHandler(
         "t-SNE_plot.svg",
-        content = function(file) {
-            svglite(file,
-                    width = 8.27,
-                    height = 8.27,
-                    pointsize = 10)
-            runAnalysis(type = 'tsne')
-            dev.off()
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-plot.svg"), file)
         },
         contentType = "image/svg"
     )
     
     output$downloadtsne1png <- downloadHandler(
         "t-SNE_plot.png",
-        content = function(file) {
-            png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
-            runAnalysis(type = 'tsne')
-            dev.off()
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-plot.png"), file)
         },
         contentType = "image/png"
     )
     
     output$downloadtsne1pdf <- downloadHandler(
         "t-SNE_plot.pdf",
-        content = function(file) {
-            pdf(file,
-                width = 8.27,
-                height = 8.27,
-                pointsize = 10)
-            runAnalysis(type = 'tsne')
-            dev.off()
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-plot.pdf"), file)
         },
         contentType = "image/pdf"
     )
     
     output$downloadtsne2svg <- downloadHandler(
-        "t-SNE_plot2.svg",
-        content = function(file) {
-            svglite(file,
-                    width = 8.27,
-                    height = 8.27,
-                    pointsize = 10)
-            runAnalysis(type = 'tsne', para = T)
-            dev.off()
+        "t-SNE_3D.svg",
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-3D.svg"), file)
         },
         contentType = "image/svg"
     )
     
     output$downloadtsne2png <- downloadHandler(
-        "t-SNE_plot2.png",
-        content = function(file) {
-            png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
-            runAnalysis(type = 'tsne', para = T)
-            dev.off()
+        "t-SNE_3D.png",
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-3D.png"), file)
         },
         contentType = "image/png"
     )
     
     output$downloadtsne2pdf <- downloadHandler(
-        "t-SNE_plot2.pdf",
-        content = function(file) {
-            pdf(file,
-                width = 8.27,
-                height = 8.27,
-                pointsize = 10)
-            runAnalysis(type = 'tsne', para = T)
-            dev.off()
+        "t-SNE_3D.pdf",
+        content <- function(file) {
+            file.copy(paste0(mydir, "/", "t-SNE-3D.pdf"), file)
         },
         contentType = "image/pdf"
     )
@@ -1737,9 +1739,9 @@ shinyServer(function(input, output, session) {
         "MDS_plot.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'mds')
             dev.off()
         },
@@ -1776,9 +1778,9 @@ shinyServer(function(input, output, session) {
         "MDS_plot2.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960, 
+                height = 960, 
+                pointsize = 24)
             runAnalysis(type = 'mds', para = T)
             dev.off()
         },

@@ -128,7 +128,9 @@ shinyUI(tagList(
                                 ),
                                 column(
                                     6,
-                                    h5(strong("Growth Curves (plant)")),
+                                    h5(strong("Growth Curves (plant)"), a(id="tip11", icon("question-circle"))),
+                                    bsPopover("tip11", "", "Plot for the first row the left table will show up automatically. You may select another row to change the plotting. ",
+                                    placement="right", options = list(container = "body")),
                                     div(class = "thumbnail", plotOutput("plantGrowthPlot", height = "500px")),
                                     downloadButton("downloadPlantpng", label = "Save as png"),
                                     downloadButton("downloadPlantpdf", label = "Save as pdf"),
@@ -149,7 +151,9 @@ shinyUI(tagList(
                                 ),
                                 column(
                                     6,
-                                    h5(strong("Growth Curves (group)")),
+                                    h5(strong("Growth Curves (group)"), a(id="tip12", icon("question-circle"))),
+                                    bsPopover("tip12", "", "Plot for the first row the left table will show up automatically. You may select another row to change the plotting. ",
+                                        placement="right", options = list(container = "body")),
                                     div(class = "thumbnail", plotOutput("groupGrowthPlot", height = "500px")),
                                     downloadButton("downloadGrouppng", label = "Save as png"),
                                     downloadButton("downloadGrouppdf", label = "Save as pdf"),

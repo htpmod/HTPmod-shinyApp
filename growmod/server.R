@@ -631,11 +631,13 @@ shinyServer(function(input, output, session) {
         } else{
             s <- input$plantGrowthData_rows_selected
         }
-        if (length(s) &&
-            !is.null(input$measurement) &&
+        if (!is.null(input$measurement) &&
             input$measurement != "") {
             dataset <- inputDataAnalysis()
             inputData <- dataset$data
+            if(is.null(s) && nrow(inputData) > 0){
+                s <- 1 
+            }
             if (group) {
                 statData <- groupDataSummay()
                 id <- statData[s, 'group']
@@ -677,9 +679,9 @@ shinyServer(function(input, output, session) {
         "plant_growth_curve.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960,
+                height = 960,
+                pointsize = 24)
             plantGowthModeling()
             dev.off()
         },
@@ -764,9 +766,9 @@ shinyServer(function(input, output, session) {
         "group_growth_curve.png",
         content = function(file) {
             png(file,
-                width = 750,
-                height = 750,
-                pointsize = 10)
+                width = 960,
+                height = 960,
+                pointsize = 24)
             plantGowthModeling(T)
             dev.off()
         },
