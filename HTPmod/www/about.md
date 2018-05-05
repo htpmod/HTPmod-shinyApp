@@ -1,6 +1,6 @@
 ## HTPmod 
 > ### A Shiny Application for Modeling and Visualization of Large-Scale Biological Data  
->> #### by Dijun Chen<sup>1,2</sup>, Liangyu Fu<sup>1,3</sup>, Dahui Hu<sup>3</sup>, Christian Klukas<sup>2</sup>, Ming Chen<sup>3</sup> and Kerstin Kaufmann<sup>1</sup>
+>> #### by Dijun Chen<sup>1,2</sup>, Liangyu Fu<sup>1</sup>, Dahui Hu<sup>3</sup>, Christian Klukas<sup>2</sup>, Ming Chen<sup>3</sup> and Kerstin Kaufmann<sup>1</sup>
 >> ##### <sup>1</sup> Department for Plant Cell and Molecular Biology, Institute for Biology, Humboldt-Universität zu Berlin, 10115 Berlin, Germany. 
 >> ##### <sup>2</sup> Leibniz Institute of Plant Genetics and Crop Plant Research (IPK), Corrensstrasse 3, 06466 Gatersleben, Germany. 
 >> ##### <sup>3</sup> Department of Bioinformatics, College of Life Sciences, Zhejiang University, Hangzhou 310058, China. 
