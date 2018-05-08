@@ -581,3 +581,35 @@ model.list <- list(
     bellshape2 = bellshape2.model, 
     bellshape3 = bellshape3.model
 )
+
+models <-
+    data.frame(
+        category = c(rep("normal", 6), rep("stressed", 5)),
+        id = c(
+            "weibull",
+            "logistic",
+            "gompetz",
+            "monomolecular",
+            "exponential",
+            "linear",
+            "quadratic",
+            "bellshape1",
+            "bellshape2",
+            "bellshape3",
+            "linear"
+        ),
+        name = c(
+            "Weibull",
+            "Logistic",
+            "Gompetz",
+            "Monomolecular",
+            "Exponential",
+            "Linear",
+            "Quadratic",
+            "Bellshape 1",
+            "Bellshape 2",
+            "Bellshape 3",
+            "Linear"
+        ),
+        stringsAsFactors = F
+    )
