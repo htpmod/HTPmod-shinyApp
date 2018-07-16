@@ -19,3 +19,7 @@ We have extensive documentation for how to use HTPmod at https://github.com/htpm
 ## Online demonstration 
 Please check [this](http://www.epiplant.hu-berlin.de/shiny/app/HTPmod/) for online demo. 
 
+## Reference: 
+The HTPmod Shiny application enables modeling and visualization of large-scale biological data. 
+Dijun Chen, Liang-Yu Fu, Dahui Hu, Christian Klukas, Ming Chen & Kerstin Kaufmann
+doi: https://doi.org/10.1038/s42003-018-0091-x
