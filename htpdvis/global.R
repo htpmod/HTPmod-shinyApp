@@ -6,7 +6,7 @@ workers <- max(2, trunc(sqrt(detectCores())))
 ## enableBookmarking(store = "url")
 
 APP_NAME <- "HTPmod"
-APP_BASE <- "http://www.epiplant.hu-berlin.de/shiny/app/"
+APP_BASE <- "https://compbio.nju.edu.cn/app/"
 APP_URL <- paste0(APP_BASE, APP_NAME, "/")
 APPs <-
     list(
